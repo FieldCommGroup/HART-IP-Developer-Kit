@@ -1,5 +1,5 @@
-![FCG](https://avatars0.githubusercontent.com/u/26013747?s=200&v=4) Fieldcomm Group
-=====================
+![FCG](https://avatars0.githubusercontent.com/u/26013747?s=100&v=4) Fieldcomm Group
+
 
 HART-IP-Developer-Kit
 =====================
