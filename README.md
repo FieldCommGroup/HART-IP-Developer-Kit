@@ -1,6 +1,8 @@
-HART-IP-Developer-Kit
+![FCG](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/fcgworld.png) Fieldcomm Group
 =====================
 
+HART-IP-Developer-Kit
+=====================
 Accelerate your HART-IP development project with this kit.
 
 Paragraph describing the kit contents…
