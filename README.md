@@ -17,7 +17,9 @@ Paragraph describing the kit contents…
 
 ## Related Documents
 
-HART-IP Client Guide maybe?
+Spec for the flow device
+
+Summary of HART commands for non-members?
 
 Any Other docs that we would furnish?
 
@@ -30,13 +32,3 @@ Follow the instructions in these guides (located in he doc/ folder) to construct
 * Operate the flow device
 * Connect a client to the device
 
-
-
-
-
-
-9. To launch the flow device, open a bash terminal as administrator and move to the FlowDevice folder.  Run the command line **hipserver hipflow** and leave it running unattended in the terminal.
-10. To terminate the server, issue a Ctrl-C in the termininal or close the terminal windiow.
-11. On a PC running Windows 7 or higher, pull a copy of the Windows HART-IP Client from [here](https://github.com/FieldCommGroup/WindowsHartIpClient) and install it on the PC.
-12.  Start the HART-IP client program and connect to the flow device at using the IP address of the Pi using **UDP** at port **5094**.  You may need to configure the PC firewall to allow UDB traffic on the PC.
-13.  Issue HART commands interactively to the flow device as desired using the HART-IP client.

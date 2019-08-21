@@ -19,7 +19,7 @@ This kit includes a simple Windows HART-IP client program that you can use to co
 
 ![useclient]()
 
-5. Click the network button to connect to the running flow device.  Use the IP address of the device and the UDP option to connect to it.  The hipserver component only answers UDP at this time.  
+5. Click the network button to connect to the running flow device.  Use the IP address of the device and the UDP option to connect to it.  The hipserver component only answers UDP at this time.  Note: you may need to configure Windows firewall to allow UDP traffic onto your PC.
 ![connect]()
 
 6.  Click the Send button on the clien to send a command 0 to the device.
