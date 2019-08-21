@@ -9,7 +9,7 @@ Follow these instructions to configure the microSD card for your flow device.  T
 3. Connect the microSD card to a USB port.  You may need an [adapter](https://www.amazon.com/SmartQ-C307-Portable-MicroSDHC-MicroSDXC/dp/B06ZYXR7DL) for this.
 
 4. Write the disk image to the microSD card using the [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) utility.  **Be sure** to specify the drive letter for your microSD card in the Device pull-down, so that you do not overwrite your computer's hard disk!
-![diskimage](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/prerelease/media/diskimage.png)
+![diskimage](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/diskimage.png)
 
 
 Follow the next steps to ready the new OS for use.

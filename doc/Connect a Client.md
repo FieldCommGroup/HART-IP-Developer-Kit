@@ -17,10 +17,10 @@ This kit includes a simple Windows HART-IP client program that you can use to co
 
 4. To launch the client from the Windows Start menu, go to FieldComm Group/HART-IP Client.  The instructions for operating the client are available [here](https://github.com/FieldCommGroup/WindowsHartIpClient).
 
-![useclient]()
+![useclient](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/useclient.png)
 
 5. Click the network button to connect to the running flow device.  Use the IP address of the device and the UDP option to connect to it.  The hipserver component only answers UDP at this time.  Note: you may need to configure Windows firewall to allow UDP traffic onto your PC.
-![connect]()
+![connect](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/connect.png)
 
 6.  Click the Send button on the clien to send a command 0 to the device.
 
