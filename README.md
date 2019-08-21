@@ -26,9 +26,9 @@ Any Other docs that we would furnish?
 ## How to Build and Operate a HART-IP Flow Device on a Raspberry Pi Computer
 
 Follow the instructions in these guides (located in he doc/ folder) to construct your device:
-* Purchase your parts using the Bill of Materials
-* Install an oerating system on your Pi Device
-* Configure the flow device software on the Pi
-* Operate the flow device
-* Connect a client to the device
+* [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill%20of%20Materials.md)
+* [Install an oerating system on your Pi Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md)
+* [Configure the flow device software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Configure%20the%20Flow%20Device.md)
+* [Operate the flow device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Operate%20the%20Flow%20Device.md)
+* [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Connect%20a%20Client.md)
 
