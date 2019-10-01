@@ -18,7 +18,7 @@ Launch the device from your PC as follows:
 3. In the terminal, move to the flow device folder and launch the server.  Leave the server running in the terminal while you access it with your windows client.
 ```
     cd ~/flowdevice
-    sudo hipserver hipflow
+    sudo ./hipserver ./hipflow
 ```
 
 5. At this point the flow device is running in the terminal.  Just let it run there until you are done using it with your HART-IP client program.  When you are complete, you can terminate the flow device by typing Ctrl-C in the terminal.  Then close the PuTTy terminal.

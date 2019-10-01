@@ -1,6 +1,6 @@
 # Configure the Flow Device
 
-Use these instructions to load the flow device software on the Pi computer.
+Use these instructions to load the flow device software onto the Pi computer.
 
 ## Install from Pre-built Software
 
