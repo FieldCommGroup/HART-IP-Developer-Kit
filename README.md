@@ -12,7 +12,6 @@ Accelerate your HART-IP development project with this kit. Paragraph describing 
 |----------|----------|-----------------|-----------|
 | Guidance | Flow Device Specification | what it does |  Draft.  PDF or md?  On github or support site?|
 | Guidance | [How to Build and Operate a HART-IP Flow Device](HowtoBuildandOperateaHART-IPFlowDeviceonaRaspberryPiCompute) | How to build the flow device from source using this kit and how to configure and operate it.| Draft md on github |
-| Guidance | HART-IP Client Guide | Wally's document summarizing accessing a HART-IP device.|    Close to final.  PDF or md?  On github or support site?|
 | Guidance | HART-IP Server Developer Guide | Tim's doc describing how to develop a new server using this kit. | Working.  PDF or md?  On github or support site?|
 | Guidance | [Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill%20of%20Materials.md) | Parts you need to build this kit | Draft |
 |Repository| [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient) | Construct and send HART messages to a HART-IP device. Parse the responses. Subscribe to published messages. C\# project with user interface, UDP/TCP connection components and installer.| final|
