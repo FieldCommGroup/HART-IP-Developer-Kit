@@ -17,15 +17,6 @@ Follow the instructions in these guides to build and operate your device:
 
 ## Related Documents
 
-Spec for the flow device
-
-Summary of HART commands for non-members?
-
-Any Other docs that we would furnish?
-
-
-## Contents
-
 | **Item** | **Link** | **Description** | **Status**|
 |----------|----------|-----------------|-----------|
 | Guidance | Flow Device Specification | what it does |  Draft.  PDF or md?  On github or support site?|
