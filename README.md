@@ -6,6 +6,24 @@
 
 Accelerate your HART-IP development project with this kit. Paragraph describing the kit contents…
 
+## How to Build and Operate a HART-IP Flow Device on a Raspberry Pi Computer
+
+Follow the instructions in these guides to build and operate your device:
+* [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill%20of%20Materials.md)
+* [Install an operating system on your Pi Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md)
+* [Configure the flow device software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Configure%20the%20Flow%20Device.md)
+* [Operate the flow device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Operate%20the%20Flow%20Device.md)
+* [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Connect%20a%20Client.md)
+
+## Related Documents
+
+Spec for the flow device
+
+Summary of HART commands for non-members?
+
+Any Other docs that we would furnish?
+
+
 ## Contents
 
 | **Item** | **Link** | **Description** | **Status**|
@@ -23,20 +41,5 @@ Accelerate your HART-IP development project with this kit. Paragraph describing 
 |Repository| [hipflow](https://github.com/FieldCommGroup/hipflow)    | This example HART device application, together with the hipserver component, implements a functioning, native HART-IP device. This example is tailored for Raspberry Pi 3B+ or later. C++ project for Ubuntu 18.04 or later. | working|
 | System | Supplied | Fully assembled Raspberry Pi 3B+ with A/D board, enclosure and operating software installed. | working |
 
-## Related Documents
 
-Spec for the flow device
-
-Summary of HART commands for non-members?
-
-Any Other docs that we would furnish?
-
-## How to Build and Operate a HART-IP Flow Device on a Raspberry Pi Computer
-
-Follow the instructions in these guides to build and operate your device:
-* [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill%20of%20Materials.md)
-* [Install an operating system on your Pi Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md)
-* [Configure the flow device software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Configure%20the%20Flow%20Device.md)
-* [Operate the flow device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Operate%20the%20Flow%20Device.md)
-* [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Connect%20a%20Client.md)
 
