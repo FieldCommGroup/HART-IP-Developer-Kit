@@ -22,4 +22,6 @@ Follow the next steps to ready the new OS for use.
 
 8. Here is a good [tutorial](https://tutorials.ubuntu.com/tutorial/command-line-for-beginners#0) for Linux command line (terminal) usage, if you are unfamiliar.
 
-9. Run the ifconfig utility from the command line and record the IP address of the device.
+9. From the Menu in the upper-lefthand corner of the display, choose System Tools, then MATE Terminal to launch the Linux terminal.
+
+10. Run the ifconfig utility from the command line and record the IPv4 address of the device.  The four byte address is on the eth0 entry, in the inet field.

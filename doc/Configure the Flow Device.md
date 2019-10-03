@@ -1,22 +1,11 @@
 # Configure the Flow Device
 
-Use these instructions to load the flow device software onto the Pi computer.
 
-## Install from Pre-built Software
+If you are using the microSD card that ships with this kit, then the flow device is already configured for you in the ~user1/flowdevice/ folder.
 
-We include pre-compiled fow device software in this kit for your convenience.  The pre-built software is built using the Ubuntu version specfied on the [Install the OS]() page.  If you are using a diferent version of the OS, you will need to pull and build the execuatbles yourself using the instructions below.
 
-1. Locate the hipserver and hipflow executables in the bin/ folder of this repository.
+To build from source and configure the device yourself, use the following instructions.
 
-2. From a terminal, move to your home folder and create a sub-folder on the Pi named flowdevice.  Copy the two executables to the this folder.  Then mark them as executable.
-```
-    cd ~
-    mkdir flowdevice
-
-    # copy the binaries to this new folder, then
-
-    sudo chmod +x hip*
-```
 
 ## Install Developer Tools
 
