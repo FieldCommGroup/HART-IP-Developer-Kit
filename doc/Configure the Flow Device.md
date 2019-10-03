@@ -1,6 +1,8 @@
 # Configure the Flow Device
 
+
 If you are using the microSD card that ships with this kit, then the flow device is already configured for you in the ~user1/flowdevice/ folder.
+
 
 To build from source and configure the device yourself, use the following instructions.
 

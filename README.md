@@ -11,6 +11,7 @@ Accelerate your HART-IP development project with this kit. Paragraph describing 
 | **Item** | **Link** | **Description** | **Status**|
 |----------|----------|-----------------|-----------|
 | Guidance | Flow Device Specification | what it does |  Draft.  PDF or md?  On github or support site?|
+
 | Guidance | [Install the OS on the Raspberry Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md) | Install the Ubuntu operating system on the Pi.| Draft md on github |
 | Guidance | [Configure the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Configure%20the%20Flow%20Device.md) | How to build the flow device from source using this kit and how to configure and operate it.| Draft md on github |
 | Guidance | [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Operate%20the%20Flow%20Device.md) | Launch the Flow Device software on the Pi.| Draft md on github |
