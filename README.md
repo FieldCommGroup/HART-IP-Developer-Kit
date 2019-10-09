@@ -2,7 +2,7 @@
 =====================
 
 # HART-IP Developer Kit
-{{TOC}}
+{:toc}
 
 ![pi_image](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/RaspberryPi3B%2BDiagram.png)
 
