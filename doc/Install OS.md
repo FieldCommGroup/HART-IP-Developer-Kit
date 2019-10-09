@@ -1,6 +1,6 @@
 # Install the Operating System
 
-Follow these instructions to configure the microSD card for your flow device.  These instructions assume that you are using a Windows PC to build the card.
+This kit comes with a pre-configured microSD card with the OS and Flow Device software pre-installed. Follow these instructions to configure a microSD card for your own flow device.  These instructions assume that you are using a Windows PC to build the card.
 
 1. Download the **UbuntuMATE 18.04** operating system from [here](https://ubuntu-mate.org/raspberry-pi/).  Select the 32-bit version named ubuntu-mate-18.04.2-beta1-desktop-armhf+raspi-ext4.img.xz.
 
@@ -9,14 +9,15 @@ Follow these instructions to configure the microSD card for your flow device.  T
 3. Connect the microSD card to a USB port.  You may need an [adapter](https://www.amazon.com/SmartQ-C307-Portable-MicroSDHC-MicroSDXC/dp/B06ZYXR7DL) for this.
 
 4. Write the disk image to the microSD card using the [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) utility.  **Be sure** to specify the drive letter for your microSD card in the Device pull-down, so that you do not overwrite your computer's hard disk!
+
 ![diskimage](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/diskimage.png)
 
 
 Follow the next steps to ready the new OS for use.
 
-5. Remove the microSD card from the PC and insert it into the Pi slot on the bottom of the unit.
+5. Remove the microSD card from the PC and insert it into the slot on the bottom of the Pi.
 
-6. Connect a monitor, keyboard, mouse and network cable to the Pi.  
+6. Connect an HDMI monitor, keyboard, mouse and network cable to the Pi.  The network cable should be connected to your hub or router.
 
 7. Power up the device and follow the first-use prompts to configure your Ubuntu OS as desired.  Configure one user with admin (superuser) priviledges;  the flow device has to run with elevated priviledges.
 
