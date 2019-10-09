@@ -1,8 +1,6 @@
 # Configure the Flow Device
 
 
-If you are using the microSD card that ships with this kit, then the flow device is already configured for you in the ~user1/flowdevice/ folder.
-
 We include pre-compiled fow device software in this kit for your convenience.  The pre-built software is built using the Ubuntu version specfied on the [Install the OS](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md) page.  If you are using a diferent version of the OS, you will need to pull and build the execuatbles yourself using the instructions below.
 
 
@@ -51,7 +49,7 @@ You will require a github account to access the repositories from the command li
 2. Download and build the hipflow program:
 ```
     cd ~
-    git clone --recursive https://github.com/FieldCommGroup/hipflow
+    git clone --recurse-submodules https://github.com/FieldCommGroup/hipflow
     cd hipflowapp/hipflowapp/Hip_Native/
     make
     cp hipflow ~/flowdevice
