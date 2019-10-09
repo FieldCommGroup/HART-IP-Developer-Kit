@@ -1,7 +1,7 @@
 # Configure the Flow Device
 
 
-If you are using the microSD card that ships with this kit, then the flow device is already configured for you in the **~user1/flowdevice/** folder.
+We include pre-compiled fow device software in this kit for your convenience.  The pre-built software is built using the Ubuntu version specfied on the [Install the OS](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md) page.  If you are using a diferent version of the OS, you will need to pull and build the execuatbles yourself using the instructions below.
 
 
 To build from source and configure the device yourself, use the following instructions.
