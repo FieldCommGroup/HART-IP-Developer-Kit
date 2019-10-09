@@ -2,7 +2,7 @@
 =====================
 
 # HART-IP Developer Kit
-[ToC]
+{{TOC}}
 
 Accelerate your HART-IP development project with this kit. Paragraph describing the kit contents…
 
@@ -15,7 +15,7 @@ Follow the instructions in these guides to build and operate your device:
 * [Operate the flow device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Operate%20the%20Flow%20Device.md)
 * [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Connect%20a%20Client.md)
 
-## Related Documents
+## Kit Contents
 
 | **Item** | **Link** | **Description** | **Status**|
 |----------|----------|-----------------|-----------|
@@ -31,6 +31,7 @@ Follow the instructions in these guides to build and operate your device:
 |Repository| [hipserver](https://github.com/FieldCommGroup/hipserver)| Use this project to simplify the development of your own server application of HART-IP device. This component is shared by all FieldComm Group HART-IP server implementations, including the latest HART Test System. It manages IP connections, publishing messages to multiple clients and more. C++ project for Ubuntu operating systems 12 and later. | Close to final |
 |Repository| [hipflow](https://github.com/FieldCommGroup/hipflow)    | This example HART device application, together with the hipserver component, implements a functioning, native HART-IP device. This example is tailored for Raspberry Pi 3B+ or later. C++ project for Ubuntu 18.04 or later. | working|
 | System | Supplied | Fully assembled Raspberry Pi 3B+ with A/D board, enclosure and operating software installed. | working |
+
 
 
 
