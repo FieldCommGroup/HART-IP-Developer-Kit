@@ -7,6 +7,7 @@ If you are using the microSD card that ships with this kit, then the flow device
 To build from source and configure the device yourself, use the following instructions.
 
 
+
 ## Install Developer Tools
 
 To build the flow device software yourself, you will need to install the developer tools first (compiler, make, etc). Then in the next section, you will download the code from the repository and build the two programs.
