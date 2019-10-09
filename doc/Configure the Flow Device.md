@@ -4,7 +4,7 @@ Use these instructions to load the flow device software onto the Pi computer.
 
 ## Install from Pre-built Software
 
-We include pre-compiled fow device software in this kit for your convenience.  The pre-built software is built using the Ubuntu version specfied on the [Install the OS]() page.  If you are using a diferent version of the OS, you will need to pull and build the execuatbles yourself using the instructions below.
+We include pre-compiled fow device software in this kit for your convenience.  The pre-built software is built using the Ubuntu version specfied on the [Install the OS](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md) page.  If you are using a diferent version of the OS, you will need to pull and build the execuatbles yourself using the instructions below.
 
 1. Locate the hipserver and hipflow executables in the bin/ folder of this repository.
 
