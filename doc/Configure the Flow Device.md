@@ -49,7 +49,7 @@ You will require a github account to access the repositories from the command li
 2. Download and build the hipflow program:
 ```
     cd ~
-    git clone --recursive https://github.com/FieldCommGroup/hipflow
+    git clone --recurse-submodules https://github.com/FieldCommGroup/hipflow
     cd hipflowapp/hipflowapp/Hip_Native/
     make
     cp hipflow ~/flowdevice
