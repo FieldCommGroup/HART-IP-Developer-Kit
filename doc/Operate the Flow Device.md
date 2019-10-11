@@ -26,7 +26,7 @@ Launch the device from your PC as follows:
 
 ## Security
 
-The HART-IP specification does not address security issues.  Security is the responsibility of the system integrator.  DO WE WANT TO ADDRESS THIS SUBJECT IN THE KIT?
+The current HART-IP specification does not address security issues. The next revision of the specification will address this, as will a later revision of this kit.  Fow now, security is the responsibility of the system integrator.
 
 ## Troubleshooting
 
@@ -36,7 +36,7 @@ The device may fail to launch because the two programs have lost the execute att
 ```
     ls -l 
     -rwxr-xr-x 1 tim tim 399440 Aug 20 13:39 hipserver
-    # the x's on this line show the file i executable
+    # the x's on this line show the file is executable
 ```
 To add the execute permisions, try:
 ```
@@ -45,6 +45,6 @@ To add the execute permisions, try:
 ```
 
 
-The HART-IP session with the flow device is stateful and it allows up to three simultaneous sessions.  If your client program connects to the flow device but it does not terminate its HART-IP connection (a crash, for instance), then the session is orphaned.  It will timeout after 10 minutes, logging a message in the PuTTY terminal and then the session will become available again.  
+The HART-IP session with the flow device is stateful and allows up to three simultaneous sessions.  If your client program connects to the flow device but it does not terminate its HART-IP connection (a crash, for instance), then the session is orphaned.  It will timeout after 10 minutes, logging a message in the PuTTY terminal and then the session will become available again.  
 
 If you repeatedly connect clients to the device and they do not close their HART-IP connections, then the available pool of sessions will become exhausted and the device will refuse further connections.  In that case, you can close the PuTTY terminal, open another and launch a new flow device instance.
