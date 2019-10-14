@@ -84,7 +84,9 @@ The RaspBerry Pi itself has several interfaces that are possible to utilize.  Fi
 ##	Process Interface
 Waveshare "High-Precision AD-DA" provides the Process interface.  
 
-Flow is measured via AD0 and normally controlled via the Trim Pot (see [Waveshare PCB](file:xxxx/Screen%20Shot%202019-10-07%20at%2012.05.34%20.png) item 8).  The Jumpers (12) connect the Trim Pot to AD0.  If an external Flow is to be used then the AD0-ADJ jumper should be removed.  External flow voltage would be connected at Terminals (2) AD0.  All ADCs accept single-ended analog value (0-5Vdc).  
+Flow is measured via AD0 and normally controlled via the Trim Pot (see [Waveshare PCB](file:xxxx/Screen%20Shot%202019-10-07%20at%2012.05.34%20.png) item 8).  The Jumpers (12) connect the Trim Pot to AD0.  If an external Flow is to be used then the AD0-ADJ jumper should be removed.  External flow voltage would be connected at Terminals (2) AD0.  
+
+All ADCs accept single-ended analog value (0-5Vdc).  See ADS1256 for ADC specifications at [http://www.ti.com/product/ADS1256](http://www.ti.com/product/ADS1256)
 
 ![Raspberry Pi 3B+](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Screen%20Shot%202019-10-07%20at%2012.05.34%20.png)
 
