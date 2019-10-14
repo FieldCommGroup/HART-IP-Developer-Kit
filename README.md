@@ -34,6 +34,15 @@ Follow the instructions in these guides to build and operate your device:
 |Repository| [hipflowapp](https://github.com/FieldCommGroup/hipflowapp)    | C++ source code for the HART-IP Flow Device application.| Draft on github|
 | Disk | Supplied with paid kit | microSD disk with operating system and Flow Device pre-installed. | Draft on uSD |
 
+## Version History
+
+### Version 1.0
+Initial release
+* Raspberry Pi 3B+
+* UbuntuMATE 18.04 LTS 64-bit
+* Flow Device 1.0
+* UDP/IP
+* 
 
 
 
