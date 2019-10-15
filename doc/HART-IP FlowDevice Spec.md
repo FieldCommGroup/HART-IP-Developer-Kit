@@ -68,7 +68,7 @@ The following table summarizes the device identification data/codes returned by 
 | PHY Sig Code |6| | Device Profile| 65 / 0x41|
 
 #	 Product Overview
-<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=50% align=right title="Raspberry Pi 3B+"> The **HART-IP FlowDevice** demonstrates operation of a field device communicating via HART-IP.  The device is a fully functioning HART 7 device and supports mandatory HART-IP commands including publishing (burst) process data and status.
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=60% align=right title="Raspberry Pi 3B+"> The **HART-IP FlowDevice** demonstrates operation of a field device communicating via HART-IP.  The device is a fully functioning HART 7 device and supports mandatory HART-IP commands including publishing (burst) process data and status.
 
 The **HART-IP FlowDevice** is designed to operate on a Raspberry Pi 3B+ using a Waveshare *Raspberry Pi High-Precision AD/DA Expansion Board*.  The Waveshare board includes the ADC and DAC used as the "process interface" for the field device.
 
@@ -81,7 +81,9 @@ The HART-IP FlowDevice operates on a Raspberry Pi 3B+ with a Waveshare ADC/DAC b
 The RaspBerry Pi itself has several interfaces that are possible to utilize.  First, the Ethernet and WiFi interfaces support HART-IP as the primary client interface.  Remote management is also possible via those channels.  In addition, monitor, keyboard and mouse can be connected to the HDMI and USB interfaces respectively.
 
 ##	Process Interface
-<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Screen%20Shot%202019-10-07%20at%2012.05.34%20.png" width=70% align=right title="Waveshare High-Precision AD-DA"> Waveshare "High-Precision AD-DA" provides the Process interface.  
+Waveshare "High-Precision AD-DA" provides the Process interface.  
+
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Screen%20Shot%202019-10-07%20at%2012.05.34%20.png" width=60% title="Waveshare High-Precision AD-DA"> 
 
 Flow is measured via AD0 and normally controlled via the Trim Pot (see item 8).  The Jumpers (12) connect the Trim Pot to AD0.  If an external Flow is to be used then the AD0-ADJ jumper should be removed.  External flow voltage would be connected at Terminals (2) AD0.  
 
