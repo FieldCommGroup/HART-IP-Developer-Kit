@@ -5,7 +5,8 @@
 
 Accelerate your HART-IP development project with this kit. Paragraph describing the kit contents…
 
-![Raspberry Pi 3B+](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png)
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=60% align=right title="Raspberry Pi 3B+"> 
+
 
 ## How to Build and Operate a HART-IP Flow Device on a Raspberry Pi Computer
 
