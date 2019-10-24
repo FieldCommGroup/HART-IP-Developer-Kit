@@ -46,6 +46,7 @@ Initial release
 * UbuntuMATE 18.04 LTS 64-bit
 * Flow Device hipflowapp 1.0
 * Server hipserver 3.6
+* Windows HART-IP Client 1.0
 
 
 
