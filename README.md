@@ -36,7 +36,7 @@ Follow the instructions in these guides to build and operate your device:
 | Disk | Supplied with paid kit | microSD disk with operating system and Flow Device pre-installed. | Draft on uSD |
 | Download | FieldComm Group | FDI Device Package and Encoded DD available for download | new |
 | Download | Supplied with paid kit | EDD source code | new |
-| Guidance | Supplied with paid kit | Developer Guide - Customizing the Flo Device Appp for Other Purposes | new |
+| Guidance | Supplied with paid kit | Developer Guide - Customizing the Flow Device for Other Purposes | new |
 
 ### Version History
 
