@@ -23,7 +23,7 @@ Follow the instructions in these guides to build and operate your device:
 
 | **Item** | **Link** | **Description** | **Status** |
 | :--- | :--- | :--- | :--- |
-| Guidance | [Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/HART-IP%20FlowDevice%20Spec.md) | what it does | Draft md on github |
+| Guidance | [Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md) | what it does | Draft md on github |
 | Guidance | [Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill%20of%20Materials.md) | Parts you need to build this kit | Draft md on github |
 | Guidance | [Install the OS on the Raspberry Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md) | Install the Ubuntu operating system on the Pi. | Draft md on github |
 | Guidance | [Configure the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Configure%20the%20Flow%20Device.md) | Build the Flow Device from source and configure it. | Draft md on github |
