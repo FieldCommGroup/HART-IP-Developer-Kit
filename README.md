@@ -34,7 +34,7 @@ Follow the instructions in these guides to build and operate your device:
 | Repository | [hipserver](https://github.com/FieldCommGroup/hipserver) | C++ source code for the HART-IP server component. | Final on github |
 | Repository | [hipflowapp](https://github.com/FieldCommGroup/hipflowapp) | C++ source code for the HART-IP Flow Device application. | Draft on github |
 | Disk | Supplied with paid kit | microSD disk with operating system and Flow Device pre-installed. | Draft on uSD |
-| Download | Supplied with paid kit | FDI Device Package with encoded DD and DeviceInfo files | new |
+| Download | FieldComm Group | FDI Device Package and Encoded DD available for download| new |
 
 ### Version History
 
