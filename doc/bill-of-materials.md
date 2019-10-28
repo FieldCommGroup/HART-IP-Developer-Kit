@@ -7,7 +7,7 @@ All prices are estimates / typical depending on your local and choice of supplie
 | ITEM #|QTY|UNIT|DESCRIPTION|UNIT PRICE|TOTAL |
 |---|:---:|:---:|---|---:|---:|
 ||1|ea|[Rasberry Pi 3B+ w/ Power Supply](https://www.amazon.com/CanaKit-Raspberry-Power-Supply-Listed/dp/B07BC6WH7V)|$48.99 |$48.99|
-||1|ea|[SanDisk Ultra 32GB Class 10 microSDHC](https://www.amazon.com/dp/B00M55C0NS/ref=dp_cerb_3)  **NOTE** For your convenience, this is available from [FieldComm Group]() (for a fee) with the operating system and FlowDevice application preloaded.|$9.44 |$9.44 |
+||1|ea|[SanDisk Ultra 32GB Class 10 microSDHC](https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B073JWXGNT)  **NOTE** For your convenience, this is available from [FieldComm Group]() (for a fee) with the operating system and FlowDevice application preloaded.|$9.44 |$9.44 |
 ||1|ea|[Waveshare Raspberry Pi High-Precision AD/DA](https://www.robotshop.com/en/raspberry-pi-high-precision-ad-da-expansion-board.html)|$27.89 |$27.89|
 |||||
 `Optional Power-Over-Ethernet #1`||ea|[DSLRKIT Power Over Ethernet PoE HAT](https://www.amazon.com/gp/product/B07JQ2Z8NG)|$15.99 |
