@@ -12,23 +12,23 @@ Accelerate your HART-IP development project with this kit. Paragraph describing 
 
 Follow the instructions in these guides to build and operate your device:
 
-* [Read the Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/HART-IP-FlowDevice-Spec.md)
-* [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill-of-Materials.md)
-* [Install an operating system on your Pi Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install-OS.md)
-* [Configure the Flow Device software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Configure-the-Flow-Device.md)
-* [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Operate-the-Flow-Device.md)
-* [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Connect-a-Client.md)
+* [Read the Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md)
+* [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/bill-of-materials.md)
+* [Install an operating system on your Pi Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/install-os.md)
+* [Configure the Flow Device software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md)
+* [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md)
+* [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md)
 
 ### Kit Contents
 
 | **Item** | **Link** | **Description** | **Status** |
 | :--- | :--- | :--- | :--- |
 | Guidance | [Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md) | what it does | Draft md on github |
-| Guidance | [Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill-of-Materials.md) | Parts you need to build this kit | Draft md on github |
-| Guidance | [Install the OS on the Raspberry Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install-OS.md) | Install the Ubuntu operating system on the Pi. | Draft md on github |
-| Guidance | [Configure the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Configure-the-Flow-Device.md) | Build the Flow Device from source and configure it. | Draft md on github |
-| Guidance | [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Operate-the-Flow-Device.md) | Launch the Flow Device software on the Pi. | Draft md on github |
-| Guidance | [Connect a Client](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Connect-a-Client.md) | Download a HART-IP client program and connect it to the Flow Device. | Draft md on github |
+| Guidance | [Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/bill-of-materials.md) | Parts you need to build this kit | Draft md on github |
+| Guidance | [Install the OS on the Raspberry Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/install-os.md) | Install the Ubuntu operating system on the Pi. | Draft md on github |
+| Guidance | [Configure the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md) | Build the Flow Device from source and configure it. | Draft md on github |
+| Guidance | [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md) | Launch the Flow Device software on the Pi. | Draft md on github |
+| Guidance | [Connect a Client](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md) | Download a HART-IP client program and connect it to the Flow Device. | Draft md on github |
 | Guidance | HART-IP Client Guide | Wally's document summarizing accessing a HART-IP device. | Close to final.  PDF  On FCG website |
 | Repository | [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient) | C\# source code for a Windows-based HART-IP client.  Installer is included. | Final on github |
 | Repository | [hipserver](https://github.com/FieldCommGroup/hipserver) | C++ source code for the HART-IP server component. | Final on github |
