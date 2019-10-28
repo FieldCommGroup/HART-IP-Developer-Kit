@@ -12,8 +12,8 @@ Accelerate your HART-IP development project with this kit. Paragraph describing 
 
 Follow the instructions in these guides to build and operate your device:
 
-* [Read the Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/HART-IP%20FlowDevice%20Spec.md)
-* [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill%20of%20Materials.md)
+* [Read the Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/HART-IP-FlowDevice-Spec.md)
+* [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill-of-Materials.md)
 * [Install an operating system on your Pi Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md)
 * [Configure the Flow Device software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Configure%20the%20Flow%20Device.md)
 * [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Operate%20the%20Flow%20Device.md)
@@ -24,7 +24,7 @@ Follow the instructions in these guides to build and operate your device:
 | **Item** | **Link** | **Description** | **Status** |
 | :--- | :--- | :--- | :--- |
 | Guidance | [Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md) | what it does | Draft md on github |
-| Guidance | [Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill%20of%20Materials.md) | Parts you need to build this kit | Draft md on github |
+| Guidance | [Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Bill-of-Materials.md) | Parts you need to build this kit | Draft md on github |
 | Guidance | [Install the OS on the Raspberry Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md) | Install the Ubuntu operating system on the Pi. | Draft md on github |
 | Guidance | [Configure the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Configure%20the%20Flow%20Device.md) | Build the Flow Device from source and configure it. | Draft md on github |
 | Guidance | [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Operate%20the%20Flow%20Device.md) | Launch the Flow Device software on the Pi. | Draft md on github |
