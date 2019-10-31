@@ -4,7 +4,7 @@
 
 ## HART-IP Developer Kit
 
-Accelerate your HART-IP development project with this kit. Paragraph describing the kit contents…
+Accelerate your HART-IP development project with this kit. Paragraph describing the kit contents…  TODO
 
 ![](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png)
 
@@ -21,24 +21,180 @@ Follow the instructions in these guides to build and operate your device:
 
 ### Kit Contents
 
-| **Item** | **Link** | **Description** | **Status** |
-| :--- | :--- | :--- | :--- |
-| Guidance | [Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md) | what it does | Draft md on github |
-| Guidance | [Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/bill-of-materials.md) | Parts you need to build this kit | Draft md on github |
-| Guidance | [Install the OS on the Raspberry Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/install-os.md) | Install the Ubuntu operating system on the Pi. | Draft md on github |
-| Guidance | [Configure the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md) | Build the Flow Device from source and configure it. | Draft md on github |
-| Guidance | [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md) | Launch the Flow Device software on the Pi. | Draft md on github |
-| Guidance | [Connect a Client](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md) | Download a HART-IP client program and connect it to the Flow Device. | Draft md on github |
-| Guidance | HART-IP Client Guide | Wally's document summarizing accessing a HART-IP device. | Close to final.  PDF  On FCG website |
-| Repository | [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient) | C\# source code for a Windows-based HART-IP client.  Installer is included. | Final on github |
-| Repository | [hipserver](https://github.com/FieldCommGroup/hipserver) | C++ source code for the HART-IP server component. | Final on github |
-| Repository | [hipflowapp](https://github.com/FieldCommGroup/hipflowapp) | C++ source code for the HART-IP Flow Device application. | Draft on github |
-| Disk | Supplied with paid kit | microSD disk with operating system and Flow Device pre-installed. | Draft on uSD |
-| Download | FieldComm Group | FDI Device Package and Encoded DD available for download | new |
-| Download | Supplied with paid kit | EDD source code | new |
-| Guidance | Supplied with paid kit | Developer Guide - Customizing the Flow Device for Other Purposes | new |
-
-### Version History
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Item</b>
+      </th>
+      <th style="text-align:left"><b>Link</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+      <th style="text-align:left"><b>Format</b>
+      </th>
+      <th style="text-align:left">Where</th>
+      <th style="text-align:left">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>Public</b>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Guidance</td>
+      <td style="text-align:left"><a href="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md">Flow Device Specification</a>
+      </td>
+      <td style="text-align:left">what it does</td>
+      <td style="text-align:left">md</td>
+      <td style="text-align:left">github</td>
+      <td style="text-align:left">needs status section</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Guidance</td>
+      <td style="text-align:left"><a href="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/bill-of-materials.md">Bill of Materials</a>
+      </td>
+      <td style="text-align:left">Parts you need to build this kit</td>
+      <td style="text-align:left">md</td>
+      <td style="text-align:left">github</td>
+      <td style="text-align:left">final</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Guidance</td>
+      <td style="text-align:left"><a href="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/install-os.md">Install the OS on the Raspberry Pi</a>
+      </td>
+      <td style="text-align:left">Install the Ubuntu operating system on the Pi.</td>
+      <td style="text-align:left">md</td>
+      <td style="text-align:left">github</td>
+      <td style="text-align:left">final</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Guidance</td>
+      <td style="text-align:left"><a href="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md">Configure the Flow Device</a>
+      </td>
+      <td style="text-align:left">Build the Flow Device from source and configure it.</td>
+      <td style="text-align:left">md</td>
+      <td style="text-align:left">github</td>
+      <td style="text-align:left">final</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Guidance</td>
+      <td style="text-align:left"><a href="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md">Operate the Flow Device</a>
+      </td>
+      <td style="text-align:left">Launch the Flow Device software on the Pi.</td>
+      <td style="text-align:left">md</td>
+      <td style="text-align:left">github</td>
+      <td style="text-align:left">final</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Guidance</td>
+      <td style="text-align:left"><a href="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md">Connect a Client</a>
+      </td>
+      <td style="text-align:left">Download a HART-IP client program and connect it to the Flow Device.</td>
+      <td
+      style="text-align:left">md</td>
+        <td style="text-align:left">github</td>
+        <td style="text-align:left">final</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Guidance</td>
+      <td style="text-align:left">HART-IP Client Guide</td>
+      <td style="text-align:left">Wally&apos;s document summarizing accessing a HART-IP device.</td>
+      <td
+      style="text-align:left">pdf</td>
+        <td style="text-align:left">web</td>
+        <td style="text-align:left">draft</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Repository</td>
+      <td style="text-align:left"><a href="https://github.com/FieldCommGroup/WindowsHartIpClient">Windows HART-IP Client</a>
+      </td>
+      <td style="text-align:left">C# source code for a Windows-based HART-IP client. Installer is included.</td>
+      <td
+      style="text-align:left">git</td>
+        <td style="text-align:left">github</td>
+        <td style="text-align:left">final</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Repository</td>
+      <td style="text-align:left"><a href="https://github.com/FieldCommGroup/hipserver">hipserver</a>
+      </td>
+      <td style="text-align:left">C++ source code for the HART-IP server component.</td>
+      <td style="text-align:left">git</td>
+      <td style="text-align:left">github</td>
+      <td style="text-align:left">wait wally review readme</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Repository</td>
+      <td style="text-align:left"><a href="https://github.com/FieldCommGroup/hipflowapp">hipflowapp</a>
+      </td>
+      <td style="text-align:left">C++ source code for the HART-IP Flow Device application.</td>
+      <td style="text-align:left">git</td>
+      <td style="text-align:left">github</td>
+      <td style="text-align:left">
+        <p>wait steve bug</p>
+        <p>wait steve readme</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Download</td>
+      <td style="text-align:left">
+        <p>FieldComm Group</p>
+        <p>need link</p>
+      </td>
+      <td style="text-align:left">FDI Device Package and Encoded DD</td>
+      <td style="text-align:left">d/l</td>
+      <td style="text-align:left">repo</td>
+      <td style="text-align:left">wait DD tasks</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Paid</b>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">SSD</td>
+      <td style="text-align:left">ship</td>
+      <td style="text-align:left">microSD w/Flow Device pre-installed</td>
+      <td style="text-align:left">uSD</td>
+      <td style="text-align:left">ship</td>
+      <td style="text-align:left">wait final build</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Download</td>
+      <td style="text-align:left">need link</td>
+      <td style="text-align:left">EDD source code</td>
+      <td style="text-align:left">ddl</td>
+      <td style="text-align:left">web</td>
+      <td style="text-align:left">wait DD tasks</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Guidance</td>
+      <td style="text-align:left">need link</td>
+      <td style="text-align:left">Flow Device Developer Guide</td>
+      <td style="text-align:left">pdf</td>
+      <td style="text-align:left">web</td>
+      <td style="text-align:left">wait steve</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Guidance</td>
+      <td style="text-align:left">need link</td>
+      <td style="text-align:left">Assembly and Operating Instruction Set</td>
+      <td style="text-align:left">pdf</td>
+      <td style="text-align:left">web</td>
+      <td style="text-align:left">draft</td>
+    </tr>
+  </tbody>
+</table>### Version History
 
 #### Version 1.0
 

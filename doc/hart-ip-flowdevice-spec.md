@@ -202,31 +202,30 @@ PV is fixed to "Flow" \(Device Variable 0\) ; SV to "Drive Current" \(Device Var
 
 Need to assign some bits in byte 0 of Command 48 for status purposes. e.g., low flow; hi drive current; — anything else easy/interesting?
 
-*begin SJVr notes...*
+_begin SJVr notes..._
 
 Command 48 Byte 0
 
-- Upper nibble is Secondary status
-- Lower nibble is Primary status
-	
+* Upper nibble is Secondary status
+* Lower nibble is Primary status
+
 Byte 0 status is bit mapped
 
-|Bit|Description|Range|
-|---|-----------|-----|
-|0x08|Hi bit is Over Range|value is >= USL|
-|0x04|High Alarm|value >= high alarm|
-|0x02|Low Alarm|value is <= low alarm|
-|0x01|Lo bit is Under Range	value is <= LSL||
-	
+| Bit | Description | Range |
+| :--- | :--- | :--- |
+| 0x08 | Hi bit is Over Range | value is &gt;= USL |
+| 0x04 | High Alarm | value &gt;= high alarm |
+| 0x02 | Low Alarm | value is &lt;= low alarm |
+| 0x01 | Lo bit is Under Range    value is &lt;= LSL |  |
+
 Byte 1 thru 5 are always zero
 
 Byte 6 is Extended Field Device Status – none of these bits are currently supported.
 
-|Code|Map|Description|
-|----|---|------------|
-| 0x01| N3,4| **Maintenance Required** [Condensed Status] This bit is set to indicate that, while the device has not malfunctioned, the Field Device requires maintenance. Devices supporting this bit should support the Condensed Status Commands (see Common Practice Command Specification). |
-| 0x02| S, N5|**Device Variable Alert** This bit is set if any Device Variable is in an Alarm or Warning State. The host should identify the Device Variable(s) causing this to be set using the Device Variable Status indicators.  |
-
+| Code | Map | Description |
+| :--- | :--- | :--- |
+| 0x01 | N3,4 | **Maintenance Required** \[Condensed Status\] This bit is set to indicate that, while the device has not malfunctioned, the Field Device requires maintenance. Devices supporting this bit should support the Condensed Status Commands \(see Common Practice Command Specification\). |
+| 0x02 | S, N5 | **Device Variable Alert** This bit is set if any Device Variable is in an Alarm or Warning State. The host should identify the Device Variable\(s\) causing this to be set using the Device Variable Status indicators. |
 
 ## Universal Commands
 
@@ -234,19 +233,19 @@ The HART-IP FlowDevice is HART 7 compliant and supports all the specified Univer
 
 * Command 2: Read Loop Current And Percent Of Range\
 
-     Loop Current returns HART NaN \(there is no loop current\)
+  Loop Current returns HART NaN \(there is no loop current\)
 
 * Command 3 Read Dynamic Variables And Loop Current\
 
-     Truncated to only PV, SV
+  Truncated to only PV, SV
 
 * Command 9 Read Device Variables with Status\
 
-     Truncated to 4 Device Variables
+  Truncated to 4 Device Variables
 
 * Command 48 Read Additional Device Status\
 
-     Truncated after "Standardized Status 1"
+  Truncated after "Standardized Status 1"
 
 ## Common-Practice Commands
 
