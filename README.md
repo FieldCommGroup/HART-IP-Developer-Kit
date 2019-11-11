@@ -4,7 +4,7 @@
 ## ![FCG](https://avatars0.githubusercontent.com/u/26013747?s=100&v=4) Fieldcomm Group
 
 
-<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=60% align=right title="Raspberry Pi 3B+"> 
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=40% align=right title="Raspberry Pi 3B+"> 
 
 ## Introduction
 HART-IP enabled products have been available since 2009.  To date the cast majority of products have been remote I/O.  This includes WirelessHART Gateways, HART 4-20ma I/O, and Remote Terminals Units (RTUs).
