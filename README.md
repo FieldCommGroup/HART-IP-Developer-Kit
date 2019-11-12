@@ -7,7 +7,7 @@
 ## Introduction
 HART-IP enabled products have been available since 2009.  To date the cast majority of products have been remote I/O.  This includes WirelessHART Gateways, HART 4-20ma I/O, and Remote Terminals Units (RTUs).
 
-The HART-IP Developer Kit provides a complete working demonstration of a HART-IP field device.  Field Devices have long been supported by the HART-IP but are just now gaining interest in the HART community and industry. This kit provides a complete working hart-ip based flow device. The kit consists of two software modules running on a Raspberry Pi hardware platform. 
+The HART-IP Developer Kit provides a complete working demonstration of a HART-IP field device.  Field Devices have long been supported by the HART-IP but are just now gaining interest in the HART community and industry. This kit provides a complete working HART-IP based flow device. The kit consists of two software modules running on a Raspberry Pi hardware platform. 
 
 The two software modules are the:
 
@@ -21,19 +21,19 @@ These two software modules target operation under Ubuntu Linux and are each foun
 This kit provides a simple way to evaluate HART-IP operation and learn the details needed to implement it in a field device (or even an I/O) 
 
 ## About this repository
-This repository serves provides the core documentation and instructions for the HART-IP Developer Kit.  This includes directions for purchasing and assembling the kit, instructions for installing and operating the HART-IP Flow Device, and specifications for the HART-IP Flow Device itself.  Links are provided to companion repositories including the [hipserver](https://github.com/FieldCommGroup/hipserver), [hipflowapp](https://github.com/FieldCommGroup/hipflowapp) and the [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient).  The Windows HART-IP Client is a simple host application that can be used to communicate with and operate the HART-IP Flow Device.
+This repository serves provides the core documentation and instructions for the HART-IP Developer Kit.  This includes directions for purchasing and assembling the kit, instructions for installing and operating the HART-IP FlowDevice, and specifications for the HART-IP FlowDevice itself.  Links are provided to companion repositories including the [hipserver](https://github.com/FieldCommGroup/hipserver), [hipflowapp](https://github.com/FieldCommGroup/hipflowapp) and the [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient).  The Windows HART-IP Client is a simple host application that can be used to communicate with and operate the HART-IP FlowDevice.
 
 
 
-### How to Build and Operate a HART-IP Flow Device on a Raspberry Pi Computer
+### How to Build and Operate a HART-IP FlowDevice on a Raspberry Pi Computer
 
 Follow the instructions in these guides to build and operate your device:
 
-* [Read the Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md)
+* [Read the FlowDevice Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md)
 * [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/bill-of-materials.md)
 * [Install an operating system on your Pi Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/install-os.md)
-* [Configure the Flow Device software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md)
-* [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md)
+* [Configure the FlowDevice software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md)
+* [Operate the FlowDevice](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md)
 * [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md)
 
 ### Kit Contents
@@ -219,7 +219,7 @@ Initial release
 
 * Raspberry Pi 3B+
 * UbuntuMATE 18.04 LTS 64-bit
-* Flow Device hipflowapp 1.0
-* Server hipserver 3.6
+* hipflowapp 1.0
+* hipserver 3.6
 * Windows HART-IP Client 1.0
 
