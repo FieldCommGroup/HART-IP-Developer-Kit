@@ -11,7 +11,8 @@ The HART-IP Developer Kit provides a complete working demonstration of a HART-IP
 
 The two software modules are the:
 
-<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=40% align=right title="Raspberry Pi 3B+"> 
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=50% align=right title="Raspberry Pi 3B+"> 
+
 - **HART-IP Server (hipserver)**  The hipserver component is essentially a HART-IP communication stack.  It takes care of all HART-IP specific functions plus manages client subscriptions.  The client subscriptions allow the hipserver to push the process and status data to client applications.
 
 - **Flow Device Application (hipflowapp)**  The hipflowapp implements a complete flowmeter.  The HART-IP Developer kit includes an ADC/DAC board that provides the physical connection for the hipflowapp. Since the HART Application Layer is independent of the underlying communication media this also provides and example of a complete HART-enabled field device. 
