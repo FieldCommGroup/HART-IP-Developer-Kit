@@ -68,7 +68,9 @@ The following table summarizes the device identification data/codes returned by 
 
 ## Product Overview
 
-![](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png) The **HART-IP FlowDevice** demonstrates operation of a field device communicating via HART-IP. The device is a fully functioning HART 7 device and supports mandatory HART-IP commands including publishing \(burst\) process data and status.
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=60% align=right>
+
+The **HART-IP FlowDevice** demonstrates operation of a field device communicating via HART-IP. The device is a fully functioning HART 7 device and supports mandatory HART-IP commands including publishing \(burst\) process data and status.
 
 The **HART-IP FlowDevice** is designed to operate on a Raspberry Pi 3B+ using a Waveshare _Raspberry Pi High-Precision AD/DA Expansion Board_. The Waveshare board includes the ADC and DAC used as the "process interface" for the field device.
 
@@ -84,7 +86,7 @@ The RaspBerry Pi itself has several interfaces that are possible to utilize. Fir
 
 Waveshare "High-Precision AD-DA" provides the Process interface.
 
-![](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Screen%20Shot%202019-10-07%20at%2012.05.34%20.png)
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Screen%20Shot%202019-10-07%20at%2012.05.34%20.png" width=70%>
 
 Flow is measured via AD0 and normally controlled via the Trim Pot \(see item 8\). The Jumpers \(12\) connect the Trim Pot to AD0. If an external Flow is to be used then the AD0-ADJ jumper should be removed. External flow voltage would be connected at Terminals \(2\) AD0.
 
@@ -108,7 +110,7 @@ The Raspberry Pi 3B+ also supports Ubuntu operating system with access via [ssh]
 
 #### Raspberry Pi 3B+
 
-![Raspberry Pi 3B+](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Raspberry%20Pi%203%20B%2B%20Diagram.r1.png)
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Raspberry%20Pi%203%20B%2B%20Diagram.r1.png" width=75%>
 
 There are no jumpers on the Raspberry Pi 3B+. However, the Raspberry Pi 3B+ has a number of connectors. The following are of interest:
 
