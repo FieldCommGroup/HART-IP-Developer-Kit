@@ -155,7 +155,7 @@ Follow the instructions in these guides to build and operate your device:
       <td style="text-align:left">git</td>
       <td style="text-align:left">github</td>
       <td style="text-align:left">
-        <p>wait steve bug</p>
+        <p>wait tim edit,</p>
         <p>wait steve readme</p>
       </td>
     </tr>
@@ -201,7 +201,7 @@ Follow the instructions in these guides to build and operate your device:
       <td style="text-align:left">Flow Device Developer Guide</td>
       <td style="text-align:left">pdf</td>
       <td style="text-align:left">web</td>
-      <td style="text-align:left">wait steve</td>
+      <td style="text-align:left">wait tim edit</td>
     </tr>
     <tr>
       <td style="text-align:left">Guidance</td>
