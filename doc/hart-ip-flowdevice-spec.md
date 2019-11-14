@@ -204,21 +204,18 @@ PV is fixed to "Flow" \(Device Variable 0\) ; SV to "Drive Current" \(Device Var
 
 Need to assign some bits in byte 0 of Command 48 for status purposes. e.g., low flow; hi drive current; — anything else easy/interesting?
 
-_begin SJVr notes..._
-
 Command 48 Byte 0
 
-* Upper nibble is Secondary status
-* Lower nibble is Primary status
-
-Byte 0 status is bit mapped
-
-| Bit | Description | Range |
+| Bit | Status | Description |
 | :--- | :--- | :--- |
-| 0x08 | Hi bit is Over Range | value is &gt;= USL |
-| 0x04 | High Alarm | value &gt;= high alarm |
-| 0x02 | Low Alarm | value is &lt;= low alarm |
-| 0x01 | Lo bit is Under Range    value is &lt;= LSL |  |
+| 0x80 | Drive current Over Range | value is &gt;= USL |
+| 0x40 | Drive current too high | flow tube is becoming plugged.  device needs maintenance |
+| 0x20 | Drive current Low Alarm | value is &lt;= low alarm |
+| 0x10 | Drive current Under Range  |  value is &lt;= LSL  |
+| 0x08 | Flow Over Range | value is &gt;= USL |
+| 0x04 | Flow High Alarm | value &gt;= high alarm |
+| 0x02 | Flow Low Alarm | value is &lt;= low alarm |
+| 0x01 | Flow Under Range  |  value is &lt;= LSL  |
 
 Byte 1 thru 5 are always zero
 
