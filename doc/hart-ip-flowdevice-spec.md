@@ -154,15 +154,15 @@ Note: Flow meters have about 10:1 turndown. For flows in the range 240-2400 the 
 
 #### Status
 
-Set Device Variable Status to “Poor Accuracy” \(top 2 MSBits = 01\) when low flow \(&lt;2,400 kg/hr\)
+Set Device Variable Status to “Poor Accuracy” \(top 2 MSBits = 01\) when low flow \(&lt;2,400 kg/hr\).  Update Extended Device Status accordingly (Device Variable Warning)
 
-If flow &lt; 240 kg/h the flow is coerced to 0. set “PV out of limits” in device status byte.
+If flow &lt; 240 kg/h the flow is coerced to 0. set “PV out of limits” in Device Status byte  (also set Device Variable Warning).
 
 ### \[1\] Drive Current \(photo-resistor\)
 
 Returned as SV in Command 3
 
-Dark means more current. Engineering units invariant as mA. Transducer limits of 0/150mA. Alarm at current above 60mA
+Dark means more current. Engineering units invariant as mA. Transducer limits of 0/150mA. Set "Device needs Maintenance" at current above 60mA 
 
 Normal value \(e.g., 10mA\) when photo resistor light is bright. 150mA when totally dark \(e.g., thumb over it\).
 
@@ -200,6 +200,8 @@ PV is fixed to "Flow" \(Device Variable 0\) ; SV to "Drive Current" \(Device Var
 
 “Device Needs Maintenance” set when Drive Current goes hi.
 
+"Device Variable Warning" set when flow is less than 2400 kg/hr.
+
 ### Additional Device Status \(Command \#48\)
 
 Need to assign some bits in byte 0 of Command 48 for status purposes. e.g., low flow; hi drive current; — anything else easy/interesting?
@@ -214,17 +216,10 @@ Command 48 Byte 0
 | 0x10 | Drive current Under Range  |  value is &lt;= LSL  |
 | 0x08 | Flow Over Range | value is &gt;= USL |
 | 0x04 | Flow High Alarm | value &gt;= high alarm |
-| 0x02 | Flow Low Alarm | value is &lt;= low alarm |
-| 0x01 | Flow Under Range  |  value is &lt;= LSL  |
+| 0x02 | Flow Low Alarm | Flow is less than 2400 kg/hr |
+| 0x01 | Flow Under Range  |  Flow is less than 240 kg/hr |
 
 Byte 1 thru 5 are always zero
-
-Byte 6 is Extended Field Device Status – none of these bits are currently supported.
-
-| Code | Map | Description |
-| :--- | :--- | :--- |
-| 0x01 | N3,4 | **Maintenance Required** \[Condensed Status\] This bit is set to indicate that, while the device has not malfunctioned, the Field Device requires maintenance. Devices supporting this bit should support the Condensed Status Commands \(see Common Practice Command Specification\). |
-| 0x02 | S, N5 | **Device Variable Alert** This bit is set if any Device Variable is in an Alarm or Warning State. The host should identify the Device Variable\(s\) causing this to be set using the Device Variable Status indicators. |
 
 ## Universal Commands
 
