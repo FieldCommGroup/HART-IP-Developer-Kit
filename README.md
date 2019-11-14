@@ -214,7 +214,7 @@ Follow the instructions in these guides to build and operate your device:
   </tbody>
 </table>### Version History
 
-#### Version 1.0
+#### Version 1.0.0
 
 Initial release
 
