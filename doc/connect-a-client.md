@@ -20,11 +20,11 @@ This kit includes a simple Windows HART-IP client program that you can use to co
 
 ![useclient](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/useclient.png)
 
-1. Click the network button to connect to the running flow device.  Use the IP address of the device and the UDP option to connect to it.  The hipserver component only answers UDP at this time.  Note: you may need to configure Windows firewall to allow UDP traffic onto your PC.
+5. Click the network button to connect to the running flow device.  Use the IP address of the device and the UDP option to connect to it.  The hipserver component only answers UDP at this time.  Note: you may need to configure Windows firewall to allow UDP traffic onto your PC.
 
 ![connect](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/connect.png)
 
-1. Click the Send button on the client to send a command 0 to the device.
-2. To close the HART-IP connection to the flow device, click the network button again.
-3. To close the server, go to the PuTTy terminal window that you left open earlier and type a Ctrl-C twice. Allow the server to terminate completely before closing the terminal.
+6. Click the Send button on the client to send a command 0 to the device.
+7. To close the HART-IP connection to the flow device, click the network button again.
+8. To close the server, go to the PuTTy terminal window that you left open earlier and type a Ctrl-C twice. Allow the server to terminate completely before closing the terminal.
 
