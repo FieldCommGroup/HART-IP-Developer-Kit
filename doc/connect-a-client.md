@@ -24,7 +24,7 @@ This kit includes a simple Windows HART-IP client program that you can use to co
 
 ![connect](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/connect.png)
 
-6. Click the Send button on the client to send a command 0 to the device.
+6. In the Command field of the client application, type "0". Click the Send button on the client to send a command 0 to the device.
 7. To close the HART-IP connection to the flow device, click the network button again.
-8. To close the server, go to the PuTTy terminal window that you left open earlier and type a Ctrl-C twice. Allow the server to terminate completely before closing the terminal.
+8. To close the server, go to the PuTTy terminal window that you left open [earlier](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md) and type a Ctrl-C twice. Allow the server to terminate completely before closing the terminal.
 
