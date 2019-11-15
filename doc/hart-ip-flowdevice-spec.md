@@ -148,13 +148,13 @@ Returned as PV in Command 3. The following Engineering units from Common Table 2
 
 The FlowDevice defaults to to kg/h
 
-**Limits and Accuracy** Transducer limits are 0/24,000 kg/h. The Nominal flow range is 2,400/24,000 kg/hr. The maximum extended flow range is 240/24,000 kg/hr \(with loss in accuracy below 2,400 kg/hr\). Below nominal flow rate Device Variable Status is set accordingly.
+**Limits and Accuracy** Transducer limits are 0/24,000 kg/h. The Nominal flow range is 2,400/24,000 kg/h. The maximum extended flow range is 240/24,000 kg/h \(with loss in accuracy below 2,400 kg/h\). Below nominal flow rate Device Variable Status is set accordingly.
 
 Note: Flow meters have about 10:1 turndown. For flows in the range 240-2400 the meter still works. - Just not so accurate.
 
 #### Status
 
-Set Device Variable Status to “Poor Accuracy” \(top 2 MSBits = 01\) when low flow \(&lt;2,400 kg/hr\).  Update Extended Device Status accordingly (Device Variable Warning)
+Set Device Variable Status to “Poor Accuracy” \(top 2 MSBits = 01\) when low flow \(&lt;2,400 kg/h\).  Update Extended Device Status accordingly (Device Variable Warning)
 
 If flow &lt; 240 kg/h the flow is coerced to 0. set “PV out of limits” in Device Status byte  (also set Device Variable Warning).
 
@@ -200,7 +200,7 @@ PV is fixed to "Flow" \(Device Variable 0\) ; SV to "Drive Current" \(Device Var
 
 “Device Needs Maintenance” set when Drive Current goes hi.
 
-"Device Variable Warning" set when flow is less than 2400 kg/hr.
+"Device Variable Warning" set when flow is less than 2400 kg/h.
 
 ### Additional Device Status \(Command \#48\)
 
@@ -216,8 +216,8 @@ Command 48 Byte 0
 | 0x10 | Drive current Under Range  |  value is &lt;= LSL  |
 | 0x08 | Flow Over Range | value is &gt;= USL |
 | 0x04 | Flow High Alarm | value &gt;= high alarm |
-| 0x02 | Flow Low Alarm | Flow is less than 2400 kg/hr |
-| 0x01 | Flow Under Range  |  Flow is less than 240 kg/hr |
+| 0x02 | Flow Low Alarm | Flow is less than 2400 kg/h |
+| 0x01 | Flow Under Range  |  Flow is less than 240 kg/h |
 
 Byte 1 thru 5 are always zero
 
