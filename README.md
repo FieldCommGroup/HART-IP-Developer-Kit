@@ -15,7 +15,7 @@ The two software modules are the:
 
 - **HART-IP Server (hipserver)**  The hipserver component is essentially a HART-IP communication stack.  It takes care of all HART-IP specific functions plus manages client subscriptions.  The client subscriptions allow the hipserver to push the process and status data to client applications.
 
-- **Flow Device Application (hipflowapp)**  The hipflowapp implements a complete flowmeter.  The HART-IP Developer kit includes an ADC/DAC board that provides the physical connection for the hipflowapp. Since the HART Application Layer is independent of the underlying communication media this also provides and example of a complete HART-enabled field device. 
+- **Flow Device Application (hipflowapp)**  The hipflowapp implements a complete flowmeter.  The HART-IP Developer kit includes an ADC/DAC board that provides the physical connection for the hipflowapp. Since the HART Application Layer is independent of the underlying communication media this also provides an example of a complete HART-enabled field device. 
 
 These two software modules target operation under Ubuntu Linux and are each found in their own repository.  
 
