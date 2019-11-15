@@ -28,7 +28,7 @@ The Flow measurement can be reported in a variety of engineering units thus demo
 
 ### Scope
 
-This document provides a detailed description of the FlowDevice's features and operation. This document also identifies any tailoring of the HART Protocol by the FlowDevice \(e.g., the truncation of Comamnd 3\). The details included are sufficient to enable the FlowDevice use by generic HART-IP client applications.
+This document provides a detailed description of the FlowDevice's features and operation. This document also identifies any tailoring of the HART Protocol by the FlowDevice \(e.g., the truncation of Command 3\). The details included are sufficient to enable the FlowDevice use by generic HART-IP client applications.
 
 ### Who should use this document?
 
