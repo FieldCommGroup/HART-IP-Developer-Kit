@@ -146,7 +146,7 @@ Returned as PV in Command 3. The following Engineering units from Common Table 2
 | 84 |  | ton/min | short tons \(i.e., 2000 lbs\) per minute |
 | 85 |  | ton/h | short tons per hour |
 
-The FlowDevice defaults to to kg/h
+The FlowDevice defaults to kg/h
 
 **Limits and Accuracy** Transducer limits are 0/24,000 kg/h. The Nominal flow range is 2,400/24,000 kg/h. The maximum extended flow range is 240/24,000 kg/h \(with loss in accuracy below 2,400 kg/h\). Below nominal flow rate Device Variable Status is set accordingly.
 
