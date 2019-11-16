@@ -243,7 +243,7 @@ The HART-IP FlowDevice is HART 7 compliant and supports all the specified Univer
 
 ## Common-Practice Commands
 
-The HART-IP FlowDevice is HART-IP compliant and, consequently, supported burst-mode.
+The HART-IP FlowDevice is HART-IP compliant and, consequently, supports burst-mode.
 
 ### Supported Commands
 
