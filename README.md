@@ -42,100 +42,26 @@ Follow the instructions in these guides to build and operate your device:
 
 | **Item** | **Link** | **Description** | **Format** | Where | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | **Public** |  |  |  |  |  |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Guidance | [Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md) | what it does | md | github | needs status section |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Guidance | [Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/bill-of-materials.md) | Parts you need to build this kit | md | github | final |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Guidance | [Install the OS on the Raspberry Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/install-os.md) | Install the Ubuntu operating system on the Pi. | md | github | final |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Guidance | [Configure the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md) | Build the Flow Device from source and configure it. | md | github | final |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Guidance | [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md) | Launch the Flow Device software on the Pi. | md | github | final |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Guidance | [Connect a Client](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md) | Download a HART-IP client program and connect it to the Flow Device. | md | github | final |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Guidance | HART-IP Client Guide | Wally's document summarizing accessing a HART-IP device. | pdf | web | draft |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Repository | [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient) | C\# source code for a Windows-based HART-IP client. Installer is included. | git | github | final |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Repository | [hipserver](https://github.com/FieldCommGroup/hipserver) | C++ source code for the HART-IP server component. | git | github | wait wally review readme |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Repository</th>
-      <th style="text-align:left"><a href="https://github.com/FieldCommGroup/hipflowapp">hipflowapp</a>
-      </th>
-      <th style="text-align:left">C++ source code for the HART-IP Flow Device application.</th>
-      <th style="text-align:left">git</th>
-      <th style="text-align:left">github</th>
-      <th style="text-align:left">
-        <p>wait tim edit,</p>
-        <p>wait steve readme</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Download</th>
-      <th style="text-align:left">
-        <p>FieldComm Group</p>
-        <p>need link</p>
-      </th>
-      <th style="text-align:left">FDI Device Package and Encoded DD</th>
-      <th style="text-align:left">d/l</th>
-      <th style="text-align:left">repo</th>
-      <th style="text-align:left">wait DD tasks</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| **Paid** |  |  |  |  |  |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
+| Repository | [hipflowapp](https://github.com/FieldCommGroup/hipflowapp) |C++ source code for the HART-IP Flow Device application.| git | github | wait tim edit|  
+|Download| FieldComm Group need link | FDI Device Package and Encoded DD | D/L | repo | wait DD tasks |
+| **Paid** | | | | | | 
 | SSD | ship | microSD w/Flow Device pre-installed | uSD | ship | wait final build |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Download | need link | EDD source code | ddl | web | wait DD tasks |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Guidance | need link | Flow Device Developer Guide | pdf | web | wait tim edit |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-
 | Guidance | need link | Assembly and Operating Instruction Set | pdf | web | draft |
-| :--- | :--- | :--- | :--- | :--- | :--- |
 
 
-**Version 1.0.0**
+#### **Version 1.0.0**
 
 Initial release
 
