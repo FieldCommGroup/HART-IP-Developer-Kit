@@ -68,7 +68,7 @@ The following table summarizes the device identification data/codes returned by 
 
 ## Product Overview
 
-<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=60% align=right>
+![](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png)
 
 The **HART-IP FlowDevice** demonstrates operation of a field device communicating via HART-IP. The device is a fully functioning HART 7 device and supports mandatory HART-IP commands including publishing \(burst\) process data and status.
 
@@ -86,7 +86,7 @@ The RaspBerry Pi itself has several interfaces that are possible to utilize. Fir
 
 Waveshare "High-Precision AD-DA" provides the Process interface.
 
-<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Screen%20Shot%202019-10-07%20at%2012.05.34%20.png" width=70%>
+![](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Screen%20Shot%202019-10-07%20at%2012.05.34%20.png)
 
 Flow is measured via AD0 and normally controlled via the Trim Pot \(see item 8\). The Jumpers \(12\) connect the Trim Pot to AD0. If an external Flow is to be used then the AD0-ADJ jumper should be removed. External flow voltage would be connected at Terminals \(2\) AD0.
 
@@ -110,7 +110,7 @@ The Raspberry Pi 3B+ also supports Ubuntu operating system with access via [ssh]
 
 #### Raspberry Pi 3B+
 
-<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Raspberry%20Pi%203%20B%2B%20Diagram.r1.png" width=75%>
+![](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/Raspberry%20Pi%203%20B%2B%20Diagram.r1.png)
 
 There are no jumpers on the Raspberry Pi 3B+. However, the Raspberry Pi 3B+ has a number of connectors. The following are of interest:
 
@@ -154,15 +154,15 @@ Note: Flow meters have about 10:1 turndown. For flows in the range 240-2400 the 
 
 #### Status
 
-Set Device Variable Status to “Poor Accuracy” \(top 2 MSBits = 01\) when low flow \(&lt;2,400 kg/h\).  Update Extended Device Status accordingly (Device Variable Warning)
+Set Device Variable Status to “Poor Accuracy” \(top 2 MSBits = 01\) when low flow \(&lt;2,400 kg/h\). Update Extended Device Status accordingly \(Device Variable Warning\)
 
-If flow &lt; 240 kg/h the flow is coerced to 0. set “PV out of limits” in Device Status byte  (also set Device Variable Warning).
+If flow &lt; 240 kg/h the flow is coerced to 0. set “PV out of limits” in Device Status byte \(also set Device Variable Warning\).
 
 ### \[1\] Drive Current \(photo-resistor\)
 
 Returned as SV in Command 3
 
-Dark means more current. Engineering units invariant as mA. Transducer limits of 0/150mA. Set "Device needs Maintenance" at current above 60mA 
+Dark means more current. Engineering units invariant as mA. Transducer limits of 0/150mA. Set "Device needs Maintenance" at current above 60mA
 
 Normal value \(e.g., 10mA\) when photo resistor light is bright. 150mA when totally dark \(e.g., thumb over it\).
 
@@ -213,11 +213,11 @@ Command 48 Byte 0
 | 0x80 | Drive current Over Range | value is &gt;= USL |
 | 0x40 | Drive current too high | flow tube is becoming plugged.  device needs maintenance |
 | 0x20 | Drive current Low Alarm | value is &lt;= low alarm |
-| 0x10 | Drive current Under Range  |  value is &lt;= LSL  |
+| 0x10 | Drive current Under Range | value is &lt;= LSL |
 | 0x08 | Flow Over Range | value is &gt;= USL |
 | 0x04 | Flow High Alarm | value &gt;= high alarm |
 | 0x02 | Flow Low Alarm | Flow is less than 2400 kg/h |
-| 0x01 | Flow Under Range  |  Flow is less than 240 kg/h |
+| 0x01 | Flow Under Range | Flow is less than 240 kg/h |
 
 Byte 1 thru 5 are always zero
 
