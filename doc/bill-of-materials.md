@@ -6,7 +6,7 @@ All prices are estimates / typical depending on your local and choice of supplie
 
 | ITEM \# | QTY | UNIT | DESCRIPTION | UNIT PRICE | TOTAL |
 | :--- | :---: | :---: | :--- | ---: | ---: |
-|  | 1 | ea | [Rasberry Pi 3B+ w/ Power Supply](https://www.amazon.com/CanaKit-Raspberry-Power-Supply-Listed/dp/B07BC6WH7V) | $48.99 | $48.99 |
+|  | 1 | ea | [Raspberry Pi 3B+ w/ Power Supply](https://www.amazon.com/CanaKit-Raspberry-Power-Supply-Listed/dp/B07BC6WH7V) | $48.99 | $48.99 |
 |  | 1 | ea | [SanDisk Ultra 32GB Class 10 microSDHC](https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B073JWXGNT)  **NOTE** For your convenience, this is available from [FieldComm Group](bill-of-materials.md) \(for a fee\) with the operating system and FlowDevice application preloaded. | $9.44 | $9.44 |
 |  | 1 | ea | [Waveshare Raspberry Pi High-Precision AD/DA](https://www.robotshop.com/en/raspberry-pi-high-precision-ad-da-expansion-board.html) | $27.89 | $27.89 |
 |  |  |  |  |  |  |
