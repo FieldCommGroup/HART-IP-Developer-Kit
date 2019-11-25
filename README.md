@@ -20,7 +20,7 @@ The two software modules are the:
 
 These two software modules target operation under Ubuntu Linux and are each found in their own repository.
 
-This kit provides a simple way to evaluate HART-IP operation and learn the details needed to implement it in a field device \(or even an I/O\)
+This kit provides a simple way to evaluate HART-IP operation and learn the details needed to implement it in a field device \(or even an I/O\).
 
 ### About this repository
 
