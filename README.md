@@ -58,7 +58,7 @@ Follow the instructions in these guides to build and operate your device:
 | SSD | ship | microSD w/Flow Device pre-installed | uSD | ship | wait final build |
 | Download | need link | EDD source code | ddl | web | wait DD tasks |
 | Guidance | need link | Flow Device Developer Guide | pdf | web | wait tim edit |
-| Guidance | need link | Assembly and Operating Instruction Set | pdf | web | draft |
+| Guidance | need link | Assembly and Operating Instruction Set (User Guide)| pdf | web | draft |
 
 
 #### **Version 1.0.0**
