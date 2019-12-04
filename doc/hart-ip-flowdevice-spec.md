@@ -250,13 +250,13 @@ The HART-IP FlowDevice is HART-IP compliant and, consequently, supports burst-mo
 The following Common Practice commands are supported
 
 * Command 35 Write Primary Variable Range Values
-* Command 53 Write Device Variable Units\
-* Command 54 Read Device Variable Information\
+* Command 53 Write Device Variable Units
+* Command 54 Read Device Variable Information
 * Command 79 Write Device Variable
 * Command 95 Read Device Communications Statistics
 * Command 103 Write Burst Period
 * Command 104 Write Burst Trigger
-* Command 105 Read Burst Mode Configuration\
+* Command 105 Read Burst Mode Configuration
 * Command 107 Write Burst Device Variables
 * Command 108 Write Burst Mode Command Number
 * Command 109 Burst Mode Control
