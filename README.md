@@ -36,7 +36,7 @@ For convenience an assembled and complete HART–IP Developer Kit is avialable f
 * Complete set of hardware including Raspberry Pi 3B+, DSLRKIT Power Over Ethernet PoE HAT, Waveshare Raspberry Pi High-Precision AD/DA together mounted on a DINrPlate DIN Rail Mount for Raspberry Pi 3.
 * *Flow Device Developer Guide* Documentation
 * HART-IP FlowDevice EDD Source Code, and 
-* Four (4) Technical Support to help you get started.
+* Four (4) hours Technical Support to help you get started.
 
 Contact [FieldComm Group](https://www.fieldcommgroup.org/contact) for more information.
 
