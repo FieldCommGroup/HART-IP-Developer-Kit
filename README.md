@@ -1,5 +1,5 @@
 
-<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/FCG_logo_horizontal_color_lg600px.png" width=50% Align=right>
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/FCG_logo_horizontal_color_lg600px.png" width=30% Align=right>
 
 # README
 
@@ -58,8 +58,8 @@ Alternatively, you can build your own system using the documentation and softwar
 Initial release
 
 * Raspberry Pi 3B+
+* Waveshare Raspberry Pi High-Precision AD/DA
 * UbuntuMATE 18.04 LTS 64-bit
 * hipflowapp 1.0
 * hipserver 3.6.1
-* Windows HART-IP Client 1.0
 
