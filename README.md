@@ -38,22 +38,7 @@ Follow the instructions in these guides to build and operate your device:
 5. [Operate the FlowDevice](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md)
 6. [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md)
 
-#### Kit Contents
-
-| **Item** | **Link** | **Description** | **Format** | Where | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Public** |  |  |  |  |  |
-| Guidance | HART-IP Client Guide | Wally's document summarizing accessing a HART-IP device. | pdf | web | draft |
-| Repository | [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient) | C\# source code for a Windows-based HART-IP client. Installer is included. | git | github | final |
-| Repository | [hipserver](https://github.com/FieldCommGroup/hipserver) | C++ source code for the HART-IP server component. | git | github | wait wally review readme |
-| Repository | [hipflowapp](https://github.com/FieldCommGroup/hipflowapp) |C++ source code for the HART-IP Flow Device application.| git | github | wait tim edit|  
-|Download| FieldComm Group need link | FDI Device Package and Encoded DD | D/L | repo | wait DD tasks |
-| **Paid** | | | | | | 
-| SSD | ship | microSD w/Flow Device pre-installed | uSD | ship | wait final build |
-| Download | need link | EDD source code | ddl | web | wait DD tasks |
-| Guidance | need link | Flow Device Developer Guide | pdf | web | wait tim edit |
-| Guidance | need link | Assembly and Operating Instruction Set (User Guide)| pdf | web | draft |
-
+### need a blurb about getting the paid kit
 
 #### **Version 1.0.0**
 
