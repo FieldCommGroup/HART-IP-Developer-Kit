@@ -1,6 +1,6 @@
-# README
 
-![](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/FCG_logo_horizontal_color_lg600px.png)
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/FCG_logo_horizontal_color_lg600px.png" width=50% Align=right>
+# README
 
 ## README
 
@@ -12,7 +12,8 @@ HART-IP enabled products have been available since 2009. To date the cast majori
 
 The HART-IP Developer Kit provides a complete working demonstration of a HART-IP field device. Field Devices have long been supported by the HART-IP but are just now gaining interest in the HART community and industry. This kit provides a complete working HART-IP based flow device. The kit consists of two software modules running on a Raspberry Pi hardware platform.
 
-![](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png)
+<img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/IMG_1950-cropped-1.png" width=50% Align=right>
+
 
 The two software modules are the:
 * **HART-IP Server \(hipserver\)** The hipserver component is essentially a HART-IP communication stack. It takes care of all HART-IP specific functions plus manages client subscriptions. The client subscriptions allow the hipserver to push the process and status data to client applications.
@@ -42,12 +43,6 @@ Follow the instructions in these guides to build and operate your device:
 | **Item** | **Link** | **Description** | **Format** | Where | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Public** |  |  |  |  |  |
-| Guidance | [Flow Device Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md) | what it does | md | github | needs status section |
-| Guidance | [Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/bill-of-materials.md) | Parts you need to build this kit | md | github | final |
-| Guidance | [Install the OS on the Raspberry Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/install-os.md) | Install the Ubuntu operating system on the Pi. | md | github | final |
-| Guidance | [Configure the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md) | Build the Flow Device from source and configure it. | md | github | final |
-| Guidance | [Operate the Flow Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md) | Launch the Flow Device software on the Pi. | md | github | final |
-| Guidance | [Connect a Client](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md) | Download a HART-IP client program and connect it to the Flow Device. | md | github | final |
 | Guidance | HART-IP Client Guide | Wally's document summarizing accessing a HART-IP device. | pdf | web | draft |
 | Repository | [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient) | C\# source code for a Windows-based HART-IP client. Installer is included. | git | github | final |
 | Repository | [hipserver](https://github.com/FieldCommGroup/hipserver) | C++ source code for the HART-IP server component. | git | github | wait wally review readme |
