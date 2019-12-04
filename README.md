@@ -1,8 +1,7 @@
 
 <img src="https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/media/FCG_logo_horizontal_color_lg600px.png" width=50% Align=right>
-# README
 
-## README
+# README
 
 ## HART-IP Developer Kit
 
@@ -16,10 +15,10 @@ The HART-IP Developer Kit provides a complete working demonstration of a HART-IP
 
 
 The two software modules are the:
-* **HART-IP Server \(hipserver\)** The hipserver component is essentially a HART-IP communication stack. It takes care of all HART-IP specific functions plus manages client subscriptions. The client subscriptions allow the hipserver to push the process and status data to client applications.
-* **Flow Device Application \(hipflowapp\)** The hipflowapp implements a complete flowmeter. The HART-IP Developer kit includes an ADC/DAC board that provides the physical connection for the hipflowapp. Since the HART Application Layer is independent of the underlying communication media this also provides an example of a complete HART-enabled field device.
+* [**HART-IP Server \(hipserver\)**](https://github.com/FieldCommGroup/hipserver)  The hipserver component is essentially a HART-IP communication stack. It takes care of all HART-IP specific functions plus manages client subscriptions. The client subscriptions allow the hipserver to push the process and status data to client applications.
+* [**Flow Device Application \(hipflowapp\)**](https://github.com/FieldCommGroup/hipflowapp)  The hipflowapp implements a complete flowmeter. The HART-IP Developer kit includes an ADC/DAC board that provides the physical connection for the hipflowapp. Since the HART Application Layer is independent of the underlying communication media this also provides an example of a complete HART-enabled field device.
 
-These two software modules target operation under Ubuntu Linux and are each found in their own repository.
+These two software modules target operation under Ubuntu Linux and are each found in their own repository \([hipserver](https://github.com/FieldCommGroup/hipserver) and [hipflowapp](https://github.com/FieldCommGroup/hipflowapp)\).
 
 This kit provides a simple way to evaluate HART-IP operation and learn the details needed to implement it in a field device \(or even an I/O\).
 
@@ -27,9 +26,23 @@ This kit provides a simple way to evaluate HART-IP operation and learn the detai
 
 This repository serves provides the core documentation and instructions for the HART-IP Developer Kit. This includes directions for purchasing and assembling the kit, instructions for installing and operating the HART-IP FlowDevice, and specifications for the HART-IP FlowDevice itself. Links are provided to companion repositories including the [hipserver](https://github.com/FieldCommGroup/hipserver), [hipflowapp](https://github.com/FieldCommGroup/hipflowapp) and the [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient). The Windows HART-IP Client is a simple host application that can be used to communicate with and operate the HART-IP FlowDevice.
 
-#### How to Build and Operate a HART-IP FlowDevice on a Raspberry Pi Computer
+### Getting Started
+There are two approaches to getting started with the HART-IP Developer Kit: buy a completed system from FieldComm Group or build you own using the documentation and software in these repositories. 
 
-Follow the instructions in these guides to build and operate your device:
+#### Getting a complete HART-IP Developer Kit from FieldComm Group
+For convenience an assembled and complete HART–IP Developer Kit is avialable from FieldComm Group.  This kit provides a complete working HART-IP based flow device. The kit consists of two software modules running on a Raspberry Pi hardware platform, a HART-IP Server anda sample FlowDevice Application.  The FlowDevice EDD Source Code and documentation are included with this kit. Features include:
+
+* Pre-Configured micro SD card containing the HART-IP Server and Flow Device Application running on UbuntuMATE (64-bit).
+* Complete set of hardware including Raspberry Pi 3B+, DSLRKIT Power Over Ethernet PoE HAT, Waveshare Raspberry Pi High-Precision AD/DA together mounted on a DINrPlate DIN Rail Mount for Raspberry Pi 3.
+* *Flow Device Developer Guide* Documentation
+* HART-IP FlowDevice EDD Source Code, and 
+* Four (4) Technical Support to help you get started.
+
+Contact [FieldComm Group](https://www.fieldcommgroup.org/contact) for more information.
+
+#### Building the HART-IP Developer Kit Yourself.
+
+Alternatively, you can build your own system using the documentation and software from these repositories. Follow the instructions in these guides to build and operate your device:
 
 1. [Read the FlowDevice Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md)
 2. [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/bill-of-materials.md)
@@ -38,9 +51,9 @@ Follow the instructions in these guides to build and operate your device:
 5. [Operate the FlowDevice](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md)
 6. [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md)
 
-### need a blurb about getting the paid kit
 
-#### **Version 1.0.0**
+
+### **Version 1.0.0**
 
 Initial release
 
