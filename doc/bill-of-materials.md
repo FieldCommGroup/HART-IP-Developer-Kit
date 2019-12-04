@@ -15,6 +15,8 @@ All prices are estimates / typical depending on your local and choice of supplie
 | Option 2 |  | ea | [UCTRONICS Gigabit PoE to micro-USB splitter/adapter](https://www.amazon.com/dp/B07CNKX14C/) | $14.96 |  |
 |  |  |  |  |  |  |
 | **OPTIONAL** |  |  | **CASE** |  |  |
+| DIN Rail Mount| | ea| [DINrPlate DIN Rail Mount for Raspberry Pi 3 ](https://www.amazon.com/gp/product/B01EYT8TZU/)| $29.99 | |
+|  |  |  |  |  |  |
 | Clear Case |  | ea | [Zebra Case - Raspberry Pi 3 \(Berry Red\)](https://www.amazon.com/gp/product/B00TOT3ZT6/ref=ox_sc_act_title_2) | $14.95 |  |
 |  |  | ea | [Zebra Case Top HAT Tall Upgrade Kit](https://www.amazon.com/gp/product/B01HFN8RZO/ref=ox_sc_act_title_3) | $8.99 |  |
 |  |  |  |  |  |  |
