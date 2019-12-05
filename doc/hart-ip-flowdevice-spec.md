@@ -6,7 +6,7 @@ This document supplies the Device-Specific Documentation for the HART-IP FlowDev
 
 ## Introduction
 
-The HART-IP FlowDevice simulates a simple-minded Coriolis flow meter. The FlowDevice measures the mass flow and the drive current required maintain the vibration of the flow tube.
+The HART-IP FlowDevice simulates a simple Coriolis flow meter. The FlowDevice measures the mass flow and the drive current required maintain the vibration of the flow tube.
 
 As is often the case, the Flow measurement supports accurate measurement across a 10:1 dynamic range \(24,000:2,400 kg/h\) or \(with reduced accuracy\) across a 100:1 turndown. At low flow status set and the flow is coerced to 0 kg/h.
 
