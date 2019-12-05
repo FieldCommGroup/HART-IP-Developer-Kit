@@ -7,7 +7,7 @@
 
 ### Introduction
 
-HART-IP enabled products have been available since 2009. To date the cast majority of products have been remote I/O. This includes WirelessHART Gateways, HART 4-20ma I/O, and Remote Terminals Units \(RTUs\).
+HART-IP enabled products have been available since 2009. To date the majority of products have been remote I/O. This includes WirelessHART Gateways, HART 4-20ma I/O, and Remote Terminals Units \(RTUs\).
 
 The HART-IP Developer Kit provides a complete working demonstration of a HART-IP field device. Field Devices have long been supported by the HART-IP but are just now gaining interest in the HART community and industry. This kit provides a complete working HART-IP based flow device. The kit consists of two software modules running on a Raspberry Pi hardware platform.
 
@@ -30,7 +30,7 @@ This repository serves provides the core documentation and instructions for the 
 There are two approaches to getting started with the HART-IP Developer Kit: buy a completed system from FieldComm Group or build you own using the documentation and software in these repositories. 
 
 #### Getting a complete HART-IP Developer Kit from FieldComm Group
-For convenience an assembled and complete HART–IP Developer Kit is available from FieldComm Group.  This kit provides a complete working HART-IP based flow device. The kit consists of two software modules running on a Raspberry Pi hardware platform, a HART-IP Server and a sample FlowDevice Application.  The FlowDevice EDD Source Code and documentation are included with this kit. 
+For convenience an assembled and complete HART–IP Developer Kit is available from FieldComm Group.  This kit provides a complete working HART-IP based flow device. The kit consists of two software modules running on a Raspberry Pi hardware platform: a HART-IP Server and a sample FlowDevice Application.  The FlowDevice EDD Source Code and documentation are included with this kit. 
 
 Features include:
 * Pre-Configured micro SD card containing the HART-IP Server and Flow Device Application running on UbuntuMATE (64-bit).
