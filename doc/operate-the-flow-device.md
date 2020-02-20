@@ -13,7 +13,7 @@ The flow device is implemented as a pair of cooperating programs that both run o
 
 The following instructions assume that you are operating it from a Windows PC. Launch the device from your PC as follows:
 
-1. Connect to the Pi using the Windows [PuTTY client](https://www.putty.org/) using the IP address that you captured when you installed the OS.
+1. Connect to the Pi using the Windows [PuTTY client](https://www.putty.org/) using the IP address that you captured when you installed the OS (note that the IP address may change if you are using DHCP).
 2. Login to the Pi using the user name that you configured with superuser privileges.
 3. In the terminal, move to the flow device folder and launch the server. Leave the server running in the terminal while you access it with your windows client.
 
