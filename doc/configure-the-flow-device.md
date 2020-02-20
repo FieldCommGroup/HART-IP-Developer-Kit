@@ -1,14 +1,14 @@
 # Configure the Flow Device
 
-The paid version of this kit includes pre-compiled flow device software for your convenience. The pre-built software is built using the Ubuntu version specfied on the [Install the OS](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md) page.
+The paid version of this kit includes pre-compiled flow device software for your convenience. The pre-built software is built using the Ubuntu version specified on the [Install the OS](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md) page.
 
 To build the flow device software from source and configure the device yourself, use the following instructions.
 
 ## Install Developer Tools
 
-To build the flow device software yourself, you will need to install the developer tools first \(compiler, make, etc\). Then in the next section, you will download the code from the repository and build the two programs.
+To build the flow device software yourself, you will need to install the developer tools first \(compiler, make, etc.\). Then in the next section, you will download the code from the repository and build the two programs.
 
-We will install the developer tools using sudo \(admin\) priviledges.
+We will install the developer tools using sudo \(admin\) privileges.
 
 1. Install git source code control
 
