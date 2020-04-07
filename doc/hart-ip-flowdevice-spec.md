@@ -204,8 +204,6 @@ PV is fixed to "Flow" \(Device Variable 0\) ; SV to "Drive Current" \(Device Var
 
 ### Additional Device Status \(Command \#48\)
 
-Need to assign some bits in byte 0 of Command 48 for status purposes. e.g., low flow; hi drive current; — anything else easy/interesting?
-
 Command 48 Byte 0
 
 | Bit | Status | Description |
@@ -219,7 +217,7 @@ Command 48 Byte 0
 | 0x02 | Flow Low Alarm | Flow is less than 2400 kg/h |
 | 0x01 | Flow Under Range | Flow is less than 240 kg/h |
 
-Byte 1 thru 5 are always zero
+Byte 1 thru 5 are always zero.
 
 ## Universal Commands
 
