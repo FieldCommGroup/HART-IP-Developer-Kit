@@ -100,7 +100,7 @@ For more information see the Waveshare documentation at [https://www.waveshare.c
 
 ### Host interface
 
-The principal Host Interface is HART-IP. This provides both publish by exception and request/response services to access the HART-IP FlowDevice. HART-IP is supported by a wide-range of client applications including data-historians, plant asset management, and many cloud-based applications.
+The principal Host Interface is HART-IP. (More specifically HART-IP Version 1). This provides both publish by exception and request/response services to access the HART-IP FlowDevice. HART-IP is supported by a wide-range of client applications including data-historians, plant asset management, and many cloud-based applications.
 
 Evaluation of the FlowDevice can be quickly undertaken using the [Windows HART-IP Client](https://github.com/FieldCommGroup/WindowsHartIpClient). This allows low cost evaluation of HART-IP using low-cost Raspberry Pi hardware and open source software.
 
