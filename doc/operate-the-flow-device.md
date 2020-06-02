@@ -13,7 +13,7 @@ The flow device is implemented as a pair of cooperating programs that both run o
 
 The following instructions assume that you are operating it from a Windows PC. Launch the device from your PC as follows:
 
-1. Connect to the Pi using the Windows [PuTTY client](https://www.putty.org/) using the IP address that you captured when you installed the OS (note that the IP address may change if you are using DHCP, ping can be used to obtain IP address, hostname of developer kit from FieldComm Group is 'user1-desktop').
+1. Connect to the Pi using the Windows [PuTTY client](https://www.putty.org/) using the IP address or Hostname that you captured when you installed the OS (note that the IP address may change if you are using DHCP, ping can be used to obtain IP address, hostname of developer kit from FieldComm Group is 'user1-desktop').
 ```text
     ping user1-desktop
    ```
