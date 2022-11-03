@@ -16,7 +16,7 @@ We will install the developer tools using sudo \(admin\) privileges.
     sudo apt update
     sudo apt install git
     git --version
-    # produces version 2.17
+    # produces version 2.25 or higher
    ```
 
 2. Install g++ compilers
@@ -25,9 +25,9 @@ We will install the developer tools using sudo \(admin\) privileges.
     sudo apt update
     sudo apt install build-essential
     g++ -v
-    # produces version 7.4
+    # produces version 9.3 or higher
     make -v
-    # produces version 4.1
+    # produces version 4.2.1 or higher
    ```
 
 ## Build from Source
