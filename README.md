@@ -71,5 +71,5 @@ Alternatively, you can build your own system using the documentation and softwar
 * Waveshare Raspberry Pi High-Precision AD/DA
 * Ubuntu Server 20.04 LTS 64-bit
 * hipflowapp 1.1.0
-* hipserver 3.6.1
+* hipserver 3.9.0
 
