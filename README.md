@@ -33,7 +33,7 @@ This kit provides a simple way to evaluate HART-IP operation and learn the detai
 
 ### About this repository
 
-This repository provides the core documentation and instructions for the HART-IP Developer Kit. This includes directions for purchasing and assembling the kit, instructions for installing and operating the HART-IP FlowDevice, and specifications for the HART-IP FlowDevice itself. Links are provided to companion repositories including the [hipserver](https://github.com/FieldCommGroup/private.hipserver), [hipflowapp](https://github.com/FieldCommGroup/private.hipflowapp) and the [Portable HART-IP Client](https://github.com/FieldCommGroup/private.NetCoreHartIpClient). The Portable HART-IP Client is a web host application that can be used on Linux, Windows and MacOS to communicate with and operate the HART-IP FlowDevice.
+This repository provides the core documentation and instructions for the HART-IP Developer Kit. This includes directions for purchasing and assembling the kit, instructions for installing and operating the HART-IP FlowDevice, and specifications for the HART-IP FlowDevice itself. Links are provided to companion repositories including the [hipserver](https://github.com/FieldCommGroup/hipserver), [hipflowapp](https://github.com/FieldCommGroup/hipflowapp) and the [Portable HART-IP Client](https://github.com/FieldCommGroup/Portable-HART-IP-Client). The Portable HART-IP Client is a web host application that can be used on Linux, Windows and MacOS to communicate with and operate the HART-IP FlowDevice.
 
 ### Getting Started
 There are two approaches to getting started with the HART-IP Developer Kit: buy a completed system from FieldComm Group or build you own using the documentation and software in these repositories. The paid kit for version 2 will be released at a later date.
@@ -56,8 +56,8 @@ Contact [FieldComm Group](https://www.fieldcommgroup.org/contact) for more infor
 
 Alternatively, you can build your own system using the documentation and software from these repositories. Follow the instructions in these guides to build and operate your device:
 
-1. [Read the FlowDevice Specification](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/hart-ip-flowdevice-spec.md)
-2. [Purchase your parts using the Bill of Materials](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/bill-of-materials.md)
+1. [Read the FlowDevice Specification](doc/hart-ip-flowdevice-spec.md)
+2. [Purchase your parts using the Bill of Materials](doc/bill-of-materials.md)
 3. [Install an operating system on your Pi Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/install-os.md)
 4. [Configure the FlowDevice software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md)
 5. [Operate the FlowDevice](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md)
