@@ -51,7 +51,7 @@ QV : Quaternary Variable
 * HART Communication Protocol.  [FieldCommGroup](https://www.fieldcommgroup.org)
 * Raspberry Pi 3B+ [https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 * Waveshare High-Precision AD/DA Board. [https://www.waveshare.com/wiki/High-Precision\_AD/DA\_Board](https://www.waveshare.com/wiki/High-Precision_AD/DA_Board). 
-* Windows HART-IP Client [https://github.com/FieldCommGroup/WindowsHartIpClient](https://github.com/FieldCommGroup/WindowsHartIpClient)
+* [Portable HART-IP Client](https://github.com/FieldCommGroup/Portable-HART-IP-Client)
 * ssh [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)
 
 ## Device Identification

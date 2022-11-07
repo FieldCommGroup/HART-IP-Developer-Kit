@@ -5,7 +5,7 @@ Components needed for minimal HART-IP Field Network:
 1. RaspPI3B+ runnning Ubuntu Server 20.04 LTS for the node running Flow device/hipserver
 1. Simple network switch - DHCP service disabled
 1. PC to run the Portable HIP Client with available wired NIC to connect to field network
-1. PC running syslog server if syslogging is going to be used by the **hipserver**. Instructions for syslog server setup are here: https://github.com/FieldCommGroup/private.HART-IP-Developer-Kit/blob/release-20/doc/syslog-server.md
+1. PC running syslog server if syslogging is going to be used by the **hipserver**. Instructions for syslog server setup are here: https://github.com/FieldCommGroup/HART-IP-Developer-Kit/doc/syslog-server.md
 
 ## Instructions for configuring each of the nodes
 1. For the node on network running dnsmasq service (Ubuntu Server 20.04 64bit OS)
