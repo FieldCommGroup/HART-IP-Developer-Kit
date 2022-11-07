@@ -1,6 +1,6 @@
 # Configure the Flow Device
 
-The paid version of this kit includes pre-compiled flow device software for your convenience. The pre-built software is built using the Ubuntu version specified on the [Install the OS](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/Install%20OS.md) page.
+The paid version of this kit includes pre-compiled flow device software for your convenience. The pre-built software is built using the Ubuntu version specified on the [Install the OS](../doc/Install%20OS.md) page.
 
 To build the flow device software from source and configure the device yourself, use the following instructions.
 
