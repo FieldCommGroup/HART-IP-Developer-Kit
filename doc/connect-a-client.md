@@ -3,10 +3,10 @@
 This kit includes a simple Windows HART-IP client program that you can use to connect to the flow device and to send HART commands to it. Use these instructions to launch the client and connect to your flow device. Additional instuctions are included in the README for its repository.
 
 1. We will use git to download the HART-IP client. If you need git on your PC, you can get it for free [here](https://gitforwindows.org/).
-2. Download the Windows HART-IP client repository using git from the Windows command prompt:
+2. Download the Portable HART-IP Client repository using git from the Windows command prompt:
 
    ```text
-    git clone https://github.com/FieldCommGroup/WindowsHartIpClient
+    git clone https://github.com/FieldCommGroup/Portable-HART-IP-Client
    ```
 
 3. Install the client from the Windows command line:

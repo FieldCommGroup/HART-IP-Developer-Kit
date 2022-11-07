@@ -1,10 +1,6 @@
 # Configure the Flow Device
 
-<<<<<<< HEAD
 The paid version of this kit includes pre-compiled flow device software for your convenience. The pre-built software is built using the Ubuntu version specified on the [Install the OS](./install-os.md) page.
-=======
-The paid version of this kit includes pre-compiled flow device software for your convenience. The pre-built software is built using the Ubuntu version specified on the [Install the OS](./Install%20OS.md) page.
->>>>>>> add-hartip-20
 
 To build the flow device software from source and configure the device yourself, use the following instructions.
 
