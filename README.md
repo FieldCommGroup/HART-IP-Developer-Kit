@@ -42,7 +42,7 @@ There are two approaches to getting started with the HART-IP Developer Kit: buy 
 For convenience, an assembled and complete HART–IP Developer Kit is available from FieldComm Group.  This kit provides a complete working HART-IP based flow device. The kit consists of two software modules running on a Raspberry Pi hardware platform: a HART-IP Server and a sample FlowDevice Application.  The FlowDevice EDD Source Code and documentation are included with this kit. 
 
 Features include:
-* Pre-Configured micro SD card containing the HART-IP Server and Flow Device Application running on UbuntuMATE (64-bit).
+* Pre-Configured micro SD card containing the HART-IP Server and Flow Device Application running on Ubuntu 20.04 (64-bit).
 * Complete set of hardware including Raspberry Pi 3B+, DSLRKIT Power Over Ethernet PoE HAT, Waveshare Raspberry Pi High-Precision AD/DA together mounted on a DINrPlate DIN Rail Mount for Raspberry Pi 3.
 * *Flow Device Developer Guide* Documentation
 * HART-IP FlowDevice EDD Source Code, and 
