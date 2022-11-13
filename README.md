@@ -50,7 +50,7 @@ Alternatively, you can build your own system using the documentation and softwar
 3. [Install an operating system on your Pi Device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/install-os.md)
 4. [Configure the FlowDevice software on the Pi](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/configure-the-flow-device.md)
 5. [Operate the FlowDevice](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/operate-the-flow-device.md)
-6. [Connect a client to the device](https://github.com/FieldCommGroup/HART-IP-Developer-Kit/blob/master/doc/connect-a-client.md)
+6. [Connect a client to the device](https://github.com/FieldCommGroup/Portable-HART-IP-Client)
 
 
 
