@@ -17,3 +17,6 @@ Follow the next steps to ready the new OS for use.
 6. Run the ifconfig utility from the command line and record the IPv4 address of the device. The four byte address is on the eth0 entry, in the inet field.
 7. You may now connect to the Pi remotely using ssh or PuTTY \(from a PC\). Use the address that you recorded in step 6, above.
 
+Note: There was a security [vulnerability](https://www.openssl.org/news/secadv/20220315.txt) discovered in the OpenSSL library in March 2022.
+
+The current release of Ubuntu 20 does not yet contain the upgraded OpenSSL library that corrects the vulnerability.  To update your OS installation, download the updated library from [GitHub](https://github.com/openssl/openssl) and follow the instructions there.
