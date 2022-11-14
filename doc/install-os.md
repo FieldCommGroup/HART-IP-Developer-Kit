@@ -36,6 +36,12 @@ Follow these steps to ready the new OS for use on a flow device.
    ```
 3. Follow the instructions here (https://github.com/FieldCommGroup/private.HART-IP-Developer-Kit/blob/release-20/doc/create-minimum-hartip-network.md) to complete the setup of your local field network.
 
+## Update OpenSSL
+
+Note: There was a security [vulnerability](https://www.openssl.org/news/secadv/20220315.txt) discovered in the OpenSSL library in March 2022.
+
+The current release of Ubuntu 20 does not yet contain the upgraded OpenSSL library that corrects the vulnerability.  To update your OS installation, download the updated library from [GitHub](https://github.com/openssl/openssl) and follow the instructions there.
+
 ## Configure the OS for use on DNSMASQ node
 
 Follow these steps to ready the new OS for use on a flow device.
