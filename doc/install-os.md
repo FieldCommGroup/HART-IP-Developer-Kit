@@ -23,23 +23,18 @@ Follow these steps to ready the new OS for use on a flow device.
    sudo apt install openssl
    sudo apt install libssl-dev
    sudo apt install git-all
-   sudo apt install build-seesential
+   sudo apt install build-essential
    sudo apt install vsftpd
    sudo apt install libjsoncpp-dev
    sudo apt install ssh
    
-   ```
-1. Verify that the ssh is enabled by running the following command in a terminal. If the service is live, you should see a line containing "Active: active \(running\)" in the output.
-   ```text
-   sudo systemctl status ssh
-   ```
 1. You may now connect to the Pi remotely using ssh or PuTTY \(from a PC\). Use the address that you recorded in step 4, above.
-1. Open port 5094 for tcp and udp connections.
+2. Open port 5094 for tcp and udp connections.
    ```
    sudo ufw allow from any to any port 53 proto tcp
    sudo ufw allow from any to any port 53 proto udp
    ```
-1. Follow the instructions here (https://github.com/FieldCommGroup/private.HART-IP-Developer-Kit/blob/release-20/doc/create-minimum-hartip-network.md) to complete the setup of your local field network.
+3. Follow the instructions here (https://github.com/FieldCommGroup/private.HART-IP-Developer-Kit/blob/release-20/doc/create-minimum-hartip-network.md) to complete the setup of your local field network.
 
 ## Configure the OS for use on DNSMASQ node
 
