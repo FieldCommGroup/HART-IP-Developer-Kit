@@ -11,22 +11,27 @@ The flow device is implemented as a pair of cooperating programs that both run o
 
 ## Launch and Terminate the Flow Device
 
-The following instructions assume that you are operating it from a Windows PC. Launch the device from your PC as follows:
-
 1. Connect to the Pi using the Windows [PuTTY client](https://www.putty.org/) using the IP address that you captured when you installed the OS (note that the IP address may change if you are using DHCP).
-2. Login to the Pi using the user name that you configured with superuser privileges.
-3. In the terminal, move to the flow device folder and launch the server. Leave the server running in the terminal while you access it with your windows client.
+2. Login to the Pi with the user name that you configured with superuser privileges.
+3. In the terminal, move to the home folder and launch the server. Leave the server running in the terminal while you access it with your windows client.
 
    ```text
-    cd ~/flowdevice
-    sudo ./hipserver ./hipflowapp
+    cd ~
+    source run.sh
    ```
 
 4. At this point the flow device is running in the terminal. Just let it run there until you are done using it with your HART-IP client program. When you are complete, you can terminate the flow device by typing Ctrl-C in the terminal. Then close the PuTTy terminal.
 
-## Security
+## Simulate a Factory Reset
+Once you connect to a HART-IP version 2.0 device with a version 2 client, it will only connect to version 2 clients.  It will not even respond to a version 1 client as a security measure.  
 
-The current HART-IP specification does not address security issues. The next revision of the specification will address this, as will a later revision of this kit. Fow now, security is the responsibility of the system integrator.
+A factory reset erases all volatile data on the device, which allows it to respond to version 1 and 2 clients.  This kit simulates a reset by removing files. Run the following command line to revert the device to its factory-fresh state.
+
+   ```text
+    cd ~
+    source reset.sh
+   ```
+
 
 ## Troubleshooting
 
