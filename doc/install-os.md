@@ -1,6 +1,6 @@
 # Install the Operating System
 
-This kit comes with a pre-configured microSD card with the OS and Flow Device software pre-installed. Follow these instructions to configure a microSD card for your own flow device. These instructions assume that you are using a Windows PC to build the card.
+The paid kit comes with a pre-configured microSD card with the OS and Flow Device software pre-installed. Follow these instructions to configure a microSD card for your own flow device. These instructions assume that you are using a Windows PC to build the card.
 
 1. Connect the microSD card to a USB port. You may need an [adapter](https://www.amazon.com/SmartQ-C307-Portable-MicroSDHC-MicroSDXC/dp/B06ZYXR7DL) for this.
 2. Download and install the free [Raspberry Pi Imager](https://www.raspberrypi.com/news/raspberry-pi-imager-imaging-utility/) utility on your PC.  Use it to intall the Ubuntu 20.04 LTS (64 bit) server operating system on your SD Card.
@@ -11,12 +11,7 @@ Follow the next steps to ready the new OS for use.
 
 1. Remove the microSD card from the PC and insert it into the slot on the bottom of the Pi.
 2. Connect an HDMI monitor, keyboard, mouse and network cable to the Pi. The network cable should be connected to your hub or router.  
-3. Power up the device and follow the first-use prompts to configure your Ubuntu OS as desired. Configure one user with admin \(superuser\) privileges; the flow device must run with elevated privileges. Make sure your Pi is connected to the internet; this is required for several steps that follow.
+3. Power up the device and follow the first-use prompts to configure your Ubuntu OS as desired. Make sure your Pi is connected to the internet; this is required for several steps that follow.
 4. Here is a good [tutorial](https://tutorials.ubuntu.com/tutorial/command-line-for-beginners#0) for Linux command line \(terminal\) usage, if you are unfamiliar.
-5. From the Menu in the upper-left-hand corner of the display, choose System Tools, then MATE Terminal to launch the Linux terminal.
-6. Run the ifconfig utility from the command line and record the IPv4 address of the device. The four byte address is on the eth0 entry, in the inet field.
-7. You may now connect to the Pi remotely using ssh or PuTTY \(from a PC\). Use the address that you recorded in step 6, above.
-
-Note: There was a security [vulnerability](https://www.openssl.org/news/secadv/20220315.txt) discovered in the OpenSSL library in March 2022.
-
-The current release of Ubuntu 20 does not yet contain the upgraded OpenSSL library that corrects the vulnerability.  To update your OS installation, download the updated library from [GitHub](https://github.com/openssl/openssl) and follow the instructions there.
+5. Run the command line "ip addr" from the terminal and record the IPv4 address of the device. The four byte address is on either the eth1 or eth2 entry, in the inet field.
+6. Connect to the Pi remotely using ssh or PuTTY \(from a PC\). Use the address that you recorded in step 5, above.
